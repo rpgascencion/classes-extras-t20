@@ -1,0 +1,1997 @@
+[
+ {
+  "_id": "qqXmIwpKxbAe3zYn",
+  "name": "Abatido",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Seu vigor se foi. Você recebe –2 PV por nível.</p><hr><p><em>Automação (módulo): efeito aplicado automaticamente na ficha.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "twsLqK83wcKzbjD3",
+    "name": "Abatido",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.qqXmIwpKxbAe3zYn",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.attributes.pv.bonus.nivel",
+      "mode": 2,
+      "value": "-2",
+      "priority": null
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "4M0yjsV9dsoKAq1X",
+  "name": "Catarata",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Seus olhos já não são os mesmos. Você sofre –5 em Percepção e Pontaria.</p><hr><p><em>Automação (módulo): efeito aplicado automaticamente na ficha.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "xTvcKbT28rq3406W",
+    "name": "Catarata",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.4M0yjsV9dsoKAq1X",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.pericias.perc.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     },
+     {
+      "key": "system.pericias.pont.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "RjUHOS8GMT8L9Qpu",
+  "name": "Dedos Trêmulos",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você sofre –2 em Luta e Pontaria. Além disso, quando usa um item que esteja empunhando, role 1d4. Em um resultado 1, você derruba esse item.</p><hr><p><em>Automação (módulo): aplica os números do defeito na ficha. A chance de derrubar o item empunhado (1d4 = 1) é por conta da mesa.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "HVrtWTwbrXSjr80o",
+    "name": "Dedos Trêmulos",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.RjUHOS8GMT8L9Qpu",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.pericias.luta.bonus",
+      "mode": 2,
+      "value": "-2",
+      "priority": null
+     },
+     {
+      "key": "system.pericias.pont.bonus",
+      "mode": 2,
+      "value": "-2",
+      "priority": null
+     }
+    ],
+    "description": "A chance de derrubar o item empunhado (1d4 = 1) é por conta da mesa.",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "mg7c06uZMMTjP7Mc",
+  "name": "Definhamento",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">A idade roubou seu peso, deixando-o um fiapo do que era antes. Você sofre –5 em Fortitude e em testes de manobras de combate.</p><hr><p><em>Automação (módulo): aplica os números do defeito na ficha. A penalidade de –5 em testes de manobras de combate não é automática.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "UJla1pPRfPiurYTr",
+    "name": "Definhamento",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.mg7c06uZMMTjP7Mc",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.pericias.fort.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     }
+    ],
+    "description": "A penalidade de –5 em testes de manobras de combate não é automática.",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "cCzFzGyfL28lPujm",
+  "name": "Desatento",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você já não é mais tão atento quanto outrora. Na primeira rodada de qualquer cena de ação, role um dado. Em um resultado ímpar, você fica surpreendido (mesmo que um efeito possa evitar isso).</p><hr><p><em>Automação (módulo): nenhuma — rolagem na primeira rodada da cena (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "DqBHI1Db0SmhJEL8",
+  "name": "“Devagar, Jovem!”",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você já não anda no mesmo ritmo que antes. Seu deslocamento diminui em –3m e você não pode correr ou fazer investidas.</p><hr><p><em>Automação (módulo): aplica os números do defeito na ficha. Não poder correr nem fazer investidas é por conta da mesa.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "psbpZKkPYuD73kwD",
+    "name": "“Devagar, Jovem!”",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.DqBHI1Db0SmhJEL8",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.attributes.movement.walk.bonus",
+      "mode": 2,
+      "value": "-3",
+      "priority": null
+     }
+    ],
+    "description": "Não poder correr nem fazer investidas é por conta da mesa.",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "eJOoxkxCUcPYNOcA",
+  "name": "Gota",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Sempre que faz um teste de Destreza ou de perícias baseadas nesse atributo você perde 1d6 pontos de vida. Você só pode recuperar esses PV com descanso.</p><hr><p><em>Automação (módulo): nenhuma — perda de 1d6 PV em testes de Destreza (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "EchPGdq58AvXKcYs",
+  "name": "Juntas Duras",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Suas articulações doem. Você sofre –5 em testes de Acrobacia e Reflexos.</p><hr><p><em>Automação (módulo): efeito aplicado automaticamente na ficha.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "Kp2KXgCq2g8txhe4",
+    "name": "Juntas Duras",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.EchPGdq58AvXKcYs",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.pericias.acro.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     },
+     {
+      "key": "system.pericias.refl.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "uTklr6Kwo0S1MTfY",
+  "name": "Melancólico",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você já não tem mais tanta motivação para realizar grandes façanhas. Você perde 1 PM por nível.</p><hr><p><em>Automação (módulo): efeito aplicado automaticamente na ficha.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "l1enVZqhlfy1x0Yb",
+    "name": "Melancólico",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.uTklr6Kwo0S1MTfY",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.attributes.pm.bonus.nivel",
+      "mode": 2,
+      "value": "-1",
+      "priority": null
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "Xd8LOkHOmVWRnGGZ",
+  "name": "Memórias Tristes",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você passou por um trauma, como a perda de um ente querido ou a culpa por um erro que cometeu e pelo qual nunca se perdoou. Sempre que rola um resultado 1 natural em qualquer teste, você fica pasmo por 1 rodada e frustrado até o fim do dia (cumulativo).</p><hr><p><em>Automação (módulo): nenhuma — depende de resultado 1 natural nos testes (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "0dwIobrTBH3Tt2J2",
+  "name": "“No Meu Tempo...”",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você se prende a visões idealizadas de um passado que nunca existiu e se torna presa fácil para manipulação. Você sofre –5 em Intuição e Vontade.</p><hr><p><em>Automação (módulo): efeito aplicado automaticamente na ficha.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "NsSOdPbsRAoe4C7z",
+    "name": "“No Meu Tempo...”",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.0dwIobrTBH3Tt2J2",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.pericias.intu.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     },
+     {
+      "key": "system.pericias.vont.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "EDv40M6cWmNxmtFY",
+  "name": "Pulmão Ruim",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Quando corre ou prende a respiração, você precisa fazer testes de Fortitude para não ficar fatigado a partir da primeira rodada (normalmente, personagens só precisam fazer esses testes após um número de rodadas igual a sua Constituição +1). Além disso, sempre que faz uma investida, você fica fatigado até o fim da cena.</p><hr><p><em>Automação (módulo): nenhuma — testes de Fortitude ao correr e fadiga na investida (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "uXkuHxKGQLKhDjM9",
+  "name": "Rabugento",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você reclama de tudo. Você sofre –5 em testes de Carisma e de perícias baseadas nesse atributo, exceto Intimidação.</p><hr><p><em>Automação (módulo): aplica os números do defeito na ficha. Aplica –5 em todas as perícias de Carisma e devolve +5 em Intimidação (a exceção). Testes puros de Carisma não são automáticos.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "hxLQqvCDSqddiFIy",
+    "name": "Rabugento",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.uXkuHxKGQLKhDjM9",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.modificadores.pericias.atr.car",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     },
+     {
+      "key": "system.pericias.inti.bonus",
+      "mode": 2,
+      "value": "5",
+      "priority": null
+     }
+    ],
+    "description": "Aplica –5 em todas as perícias de Carisma e devolve +5 em Intimidação (a exceção). Testes puros de Carisma não são automáticos.",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "OUiVHBtwXy7TtEg4",
+  "name": "Recurvado",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">A idade dobrou suas costas. Você conta como uma categoria de tamanho menor para alcance natural, modificador de manobras e armas que pode empunhar (mas não para espaço ocupado, modificador de Furtividade ou dano de armas naturais).</p><hr><p><em>Automação (módulo): nenhuma — categoria de tamanho menor para alcance, manobras e armas (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "6SzBzh6NOJwgaMc1",
+  "name": "Sono Ruim",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você acorda várias vezes no meio da noite, o que atrapalha seu descanso. Sua recuperação de PM e PV é sempre uma categoria pior. Se a condição de descanso já é ruim, você recupera apenas 1 PM e 1 PV, independentemente do seu nível. Se já recupera apenas 1 PM e 1 PV, não recupera nada!</p><hr><p><em>Automação (módulo): nenhuma — recuperação de PV e PM uma categoria pior (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "zNx2FnHhtor6hrbM",
+  "name": "Teimoso",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Sempre que falha em um teste de atributo ou de perícia que possa tentar novamente, você é obrigado a tentar pelo menos mais uma vez (mesmo que isso possa prejudicá-lo). Teimoso é quem teima com você!</p><hr><p><em>Automação (módulo): nenhuma — obrigação de repetir testes (roleplay).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "2LglBCrYIyg9fVTQ",
+  "name": "Tosse",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Em cenas de ação, role 1d6 no início de cada rodada. Num resultado 1, você tem uma crise de tosse e fica atordoado por 1 rodada. Em cenas de interpretação, role 1d6 sempre que fizer um teste de perícia baseada em Carisma. Num resultado 1, você tem uma crise de tosse e sofre uma penalidade de –5 nesse teste.</p><hr><p><em>Automação (módulo): nenhuma — rolagens de crise de tosse (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "NwuPggyJFCkoOc9j",
+  "name": "Turrão",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você faz tudo sempre do seu jeito e tem dificuldade de lidar com coisas nas quais não é perito. Você não recebe o bônus de metade do nível em perícias nas quais não é treinado.</p><hr><p><em>Automação (módulo): nenhuma — o sistema sempre soma metade do nível; não há como remover só nas perícias sem treino.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "yF4CGXAhEITNVor6",
+  "name": "Velha Ferida",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você tem um machucado antigo, que nunca cicatrizou direito. Sempre que você sofre um acerto crítico, o multiplicador de dano aumenta em +1 e você fica fraco (mesmo que seja imune, cumulativo).</p><hr><p><em>Automação (módulo): nenhuma — depende de sofrer acerto crítico (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "3qXnyqLOeDY0m2oo",
+  "name": "Criado na Cidade",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você não se dá bem no mato. Você sofre –5 em Sobrevivência e, quando descansa nos ermos, sua recuperação é uma categoria pior (se já era ruim, você recupera apenas 1 PV e 1 PM, independentemente do seu nível).</p><hr><p><em>Automação (módulo): aplica os números do defeito na ficha. A recuperação uma categoria pior ao descansar nos ermos é por conta da mesa.</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 276)",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [
+   {
+    "_id": "qfkP6aIr4rSlmlE7",
+    "name": "Criado na Cidade",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.3qXnyqLOeDY0m2oo",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": false,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": false,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": false,
+    "changes": [
+     {
+      "key": "system.pericias.sobr.bonus",
+      "mode": 2,
+      "value": "-5",
+      "priority": null
+     }
+    ],
+    "description": "A recuperação uma categoria pior ao descansar nos ermos é por conta da mesa.",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ },
+ {
+  "_id": "H8SX4XyuUqOXqXnD",
+  "name": "Paladar Infantil",
+  "type": "poder",
+  "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+  "folder": null,
+  "system": {
+   "description": {
+    "value": "<p style=\"text-align:justify\">Você é chato para comer. Não se beneficia de itens da categoria alimentação, nem de poções. Além disso, sofre –2 em testes de perícias baseadas em Carisma durante situações sociais baseadas em refeições, como um banquete no palácio ou uma noite na taverna.</p><hr><p><em>Automação (módulo): nenhuma — depende de itens de alimentação, poções e situações sociais com refeição (por conta da mesa).</em></p>",
+    "unidentified": ""
+   },
+   "source": "T20 - Herois de Arton (pág. 276)",
+   "ativacao": {
+    "execucao": "passive",
+    "custo": 0,
+    "qtd": "",
+    "condicao": "",
+    "special": ""
+   },
+   "duracao": {
+    "value": 0,
+    "units": "inst",
+    "special": ""
+   },
+   "range": {
+    "value": 0,
+    "units": ""
+   },
+   "efeito": "",
+   "alcance": "none",
+   "area": "",
+   "resistencia": {
+    "pericia": "",
+    "atributo": "",
+    "bonus": 0,
+    "txt": ""
+   },
+   "rolls": [],
+   "tipo": "complicacao",
+   "subtipo": "",
+   "origin": "",
+   "tags": [],
+   "rolltags": [],
+   "chatFlavor": "",
+   "chatGif": "",
+   "automationtags": []
+  },
+  "effects": [],
+  "flags": {},
+  "sort": 0,
+  "ownership": {
+   "default": 0
+  },
+  "_stats": {
+   "systemId": "tormenta20",
+   "systemVersion": "1.5.015",
+   "coreVersion": "13.344",
+   "createdTime": 1792795739823,
+   "modifiedTime": 1792795739823,
+   "lastModifiedBy": null,
+   "duplicateSource": null,
+   "exportSource": null,
+   "compendiumSource": null
+  }
+ }
+]

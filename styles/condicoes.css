@@ -1,0 +1,33 @@
+.t20-apply-condition {
+	cursor: pointer;
+	flex: 0 0 auto;
+	margin-left: 4px;
+}
+
+/* dentro dos blocos de dano, usa o mesmo visual dos botões nativos */
+.roll.roll--dano .t20-apply-condition {
+	width: 1.7em;
+	height: 1.7em;
+	line-height: 1;
+}
+
+/* no cabeçalho do card (magias/poderes sem rolagem de dano) */
+.card-header .t20-apply-condition {
+	flex: 0;
+	margin-left: 6px;
+}
+
+.t20-cond-dialog label {
+	display: block;
+	margin-top: 8px;
+	font-weight: bold;
+}
+
+.t20-cond-dialog input,
+.t20-cond-dialog select {
+	width: 100%;
+}
+
+.t20-cond-dialog small {
+	color: #666;
+}

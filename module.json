@@ -1,0 +1,84 @@
+{
+  "id": "classes-extras-t20",
+  "title": "Classes e Extras (T20)",
+  "description": "Classes e conteúdo extra para o Tormenta20, com os poderes automatizados sempre que o sistema permite. Classes: Sentinela e Comandante (Dragão Brasil #222). Condições automáticas: botão \"Aplicar Condição\" no chat (ao lado do dano), com duração em rodadas, até o fim da cena ou manual, e dano automático por turno (ex.: veneno). Inclui as 28 \"Novas Condições (DB)\" da wiki Tormenta Collab (Abençoado, Absorvendo, Alentado, Amordaçado, Aquecido, Arrefecido, Audacioso, Bêbado, Congelado, Contundido, Decaído, Desnorteado, Disposto, Eletrificado, Eletrizado, Fedido, Fortalecido, Intrépido, Leve, Molhado, Poderoso, Prevenido, Relaxado, Restaurando, Sonolento, Sufocado, Veloz, Vigoroso). Itens superiores: acrescenta ao sistema as melhorias e materiais que faltam (Dragão Brasil, Heróis de Arton, Ameaças de Arton, Rubi Gigante) e automatiza as que o sistema deixava manuais.",
+  "version": "0.10.4",
+  "authors": [
+    {
+      "name": "ASCUNCAO"
+    }
+  ],
+  "compatibility": {
+    "minimum": "13",
+    "verified": "13"
+  },
+  "relationships": {
+    "systems": [
+      {
+        "id": "tormenta20",
+        "type": "system",
+        "compatibility": {
+          "minimum": "1.5.0"
+        }
+      }
+    ],
+    "conflicts": [
+      {
+        "id": "condicoes-automaticas-t20",
+        "type": "module",
+        "reason": "Já incluso neste módulo. Desative o módulo Condições Automáticas antigo."
+      }
+    ],
+    "recommends": [
+      {
+        "id": "t20-hayd-itens",
+        "type": "module",
+        "reason": "Melhorias, encantos e materiais que só o classes-extras tem entram no catálogo dele (e, por isso, na T20 Hayd Loja e no importador de fichas)."
+      }
+    ]
+  },
+  "esmodules": [
+    "scripts/main.mjs"
+  ],
+  "packs": [
+    {
+      "name": "classes",
+      "label": "Classes Extras",
+      "system": "tormenta20",
+      "path": "packs/classes-v2",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    },
+    {
+      "name": "complicacoes",
+      "label": "Classes Extras – Defeitos",
+      "system": "tormenta20",
+      "path": "packs/complicacoes-v2",
+      "type": "Item",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "packFolders": [
+    {
+      "name": "DBs Extras",
+      "sorting": "m",
+      "color": "#3d2b6b",
+      "packs": [
+        "classes",
+        "complicacoes"
+      ]
+    }
+  ],
+  "styles": [
+    "styles/condicoes.css"
+  ],
+  "url": "https://github.com/rpgascencion/classes-extras-t20",
+  "manifest": "https://raw.githubusercontent.com/rpgascencion/classes-extras-t20/main/module.json",
+  "download": "https://github.com/rpgascencion/classes-extras-t20/releases/latest/download/classes-extras-t20.zip"
+}
