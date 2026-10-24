@@ -78,3 +78,7 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.10.4
 - Habilidades fixas do Comandante também marcadas com classe e nível (Autoconfiança, Coordenar e Direcionar no 1º; Palavras Afiadas no 2º; Replanejar no 3º; Gritar Ordens no 4º; Presença de Liderança no 5º; Líder Nato no 20º), para o importador adicioná-las. Os direcionamentos continuam sendo escolhidos na ficha.
+
+## v0.11.0
+- **Miragem** (Dragão Brasil #211, versão atual, variante do Caçador): classe com 3 PM por nível e as habilidades Dança da Areia, Rastreador, Explorador, Caminho do Explorador, Cortina de Poeira, Passo do Deserto e Mestre do Deserto, mais os novos poderes de caçador (Arsenal do Deserto, Escaramuça Distante, Passo Duplo, Passos Precisos, Tesouros da Natureza).
+- Automático: PV/PM por nível, perícias, custos de PM, bônus de dano da Dança da Areia (o dado cresce a cada 4 níveis) e RD 20 do Mestre do Deserto (ligados só ao usar o poder). O resto é descrição.

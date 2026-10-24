@@ -153,6 +153,72 @@
     "exportSource": null,
     "compendiumSource": null
    }
+  },
+  {
+   "_id": "WKDycPQGWeGh3ocp",
+   "name": "Miragem",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 0,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "nNXH0lWml1H2gAGB",
+   "name": "Habilidades de Classe",
+   "type": "Item",
+   "folder": "WKDycPQGWeGh3ocp",
+   "sorting": "a",
+   "sort": 0,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "pQjykdOo0LOT0oXv",
+   "name": "Novos Poderes de Caçador",
+   "type": "Item",
+   "folder": "WKDycPQGWeGh3ocp",
+   "sorting": "a",
+   "sort": 0,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
   }
  ],
  "items": [
@@ -3759,6 +3825,1232 @@
     "coreVersion": "13.344",
     "createdTime": 1792797808042,
     "modifiedTime": 1792797808042,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "cI7b7RqSXHYWulOK",
+   "name": "Miragem",
+   "type": "classe",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "WKDycPQGWeGh3ocp",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>Miragens são combatentes praticantes da Dança da Areia, um estilo de luta criado pelos ferani, o povo réptil do Planalto de Sukala. Baseada em velocidade, furtividade e mobilidade, a Dança da Areia combina movimentos acrobáticos e técnicas de guerrilha em uma forma de combate única. Seus praticantes mesclam agilidade e magia para executar feitos marciais impressionantes que confundem, desorientam e surpreendem seus oponentes.</p><p><em>Classe variante do caçador: as habilidades aqui substituem as da classe básica, usa a mesma lista de poderes de classe e vale para pré-requisitos do caçador. Não é possível fazer multiclasse entre caçador e miragem.</em></p><h3>Características de Classe</h3><p><strong>Pontos de Vida.</strong> Como o caçador básico: 16 pontos de vida + Constituição e 4 PV + Constituição por nível.</p><p><strong>Pontos de Mana.</strong> 3 PM por nível.</p><p><strong>Perícias.</strong> Luta (For) ou Pontaria (Des), Sobrevivência (Des), mais 4 a sua escolha entre Acrobacia (Des), Atletismo (For), Fortitude (Con), Furtividade (Des), Guerra (Int), Iniciativa (Des), Intimidação (Car), Luta (For), Ofício (Int), Percepção (Sab), Pontaria (Des) e Reflexos (Des).</p><p><strong>Proficiências.</strong> Como o caçador básico.</p><h3>Tabela 1-1: O Miragem</h3><table><thead><tr><th>Nível</th><th>Habilidades de Classe</th></tr></thead><tbody><tr><td>1º</td><td>Dança da areia +1d4, rastreador</td></tr><tr><td>2º</td><td>Poder de caçador</td></tr><tr><td>3º</td><td>Explorador, poder de caçador</td></tr><tr><td>4º</td><td>Poder de caçador</td></tr><tr><td>5º</td><td>Caminho do explorador, dança da areia +1d6, poder de caçador</td></tr><tr><td>6º</td><td>Poder de caçador</td></tr><tr><td>7º</td><td>Cortina de poeira, poder de caçador</td></tr><tr><td>8º</td><td>Poder de caçador</td></tr><tr><td>9º</td><td>Dança da areia +1d8, passo do deserto, poder de caçador</td></tr><tr><td>10º</td><td>Poder de caçador</td></tr><tr><td>11º</td><td>Poder de caçador</td></tr><tr><td>12º</td><td>Poder de caçador</td></tr><tr><td>13º</td><td>Dança da areia +1d10, poder de caçador</td></tr><tr><td>14º</td><td>Poder de caçador</td></tr><tr><td>15º</td><td>Poder de caçador</td></tr><tr><td>16º</td><td>Poder de caçador</td></tr><tr><td>17º</td><td>Dança da areia +1d12, poder de caçador</td></tr><tr><td>18º</td><td>Poder de caçador</td></tr><tr><td>19º</td><td>Poder de caçador</td></tr><tr><td>20º</td><td>Mestre do deserto, poder de caçador</td></tr></tbody></table><hr><p><em>Automação (módulo): PV e PM por nível, perícias da classe e os poderes de classe (arraste os poderes da pasta Miragem › Habilidades de Classe do mesmo compêndio; Rastreador, Explorador e Caminho do Explorador são os do caçador básico). Os novos poderes de caçador estão na pasta Novos Poderes de Caçador.</em></p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "niveis": 1,
+    "pvPorNivel": 4,
+    "pmPorNivel": 3,
+    "inicial": false,
+    "rolls": [],
+    "origin": "",
+    "tags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "pericias": {
+     "inatas": "Luta (For) ou Pontaria (Des), Sobrevivência (Des), mais 4 a sua escolha entre Acrobacia (Des), Atletismo (For), Fortitude (Con), Furtividade (Des), Guerra (Int), Iniciativa (Des), Intimidação (Car), Luta (For), Ofício (Int), Percepção (Sab), Pontaria (Des) e Reflexos (Des).",
+     "numero": 4
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "m63YBNFBbpiiEusZ",
+   "name": "Dança da Areia",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [
+    {
+     "_id": "6NCQLZerVppWnSm0",
+     "name": "Dança da Areia",
+     "img": "modules/classes-extras-t20/icons/miragem.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.m63YBNFBbpiiEusZ",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.modificadores.dano.geral",
+       "mode": 2,
+       "value": "1d(4+2*floor((@nvl.miragem-1)/4))",
+       "priority": null
+      }
+     ],
+     "description": "Bônus de dano da Dança da Areia (dado cresce a cada 4 níveis).",
+     "transfer": false,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 1
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode gastar 2 PM para iniciar uma dança da areia. Enquanto executa essa dança, você recebe um bônus de +1d4 em suas rolagens de dano contra alvos em alcance curto. A cada quatro níveis, você pode gastar +1 PM para aumentar o dado de bônus de dano em um passo (de 1d4 para 1d6, por exemplo). A dança termina ao final da cena ou se você passar uma rodada sem percorrer pelo menos 6m sem passar pelo mesmo espaço duas vezes. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.</p><hr><p><em>Automação (módulo): ao usar, soma o dado de dano da dança (1d4 no 1º nível, 1d6 no 5º, 1d8 no 9º, 1d10 no 13º e 1d12 no 17º, já sem o PM extra de aumento do dado) em todas as suas rolagens de dano durante a cena. O limite de alcance curto, a exigência de se mover 6m por rodada e a restrição de armadura pesada são por sua conta. O custo de 2 PM é descontado ao usar.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "bQeKuU5iApiDexuf",
+   "name": "Rastreador",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 1
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como o caçador básico.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "Jio8t9xjRIDnr8DM",
+   "name": "Explorador",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 3
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 3º nível, você recebe esta habilidade como o caçador básico.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "rOeIpZJKoHlwfwA0",
+   "name": "Caminho do Explorador",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 5
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 5º nível, você recebe esta habilidade como o caçador básico.</p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "DrHmnGoF53KuvxGD",
+   "name": "Cortina de Poeira",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 7
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 7º nível, você usa sua velocidade para criar uma nuvem de terra ou outros detritos para obscurecer a visão de seus inimigos. Quando usa Dança da Areia, você pode gastar +2 PM para receber camuflagem enquanto sua dança estiver ativa.</p><hr><p><em>Automação (módulo): não automático: a camuflagem é uma condição que você aplica na ficha enquanto a dança durar. O texto da revista diz “+2 PE”; tratado aqui como PM.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "Ao usar Dança da Areia",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "AQgDjtiIwpAoxGtt",
+   "name": "Passo do Deserto",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 9
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>A partir do 9º nível, se estiver sob areia, terra ou outro tipo de terreno que não seja rocha sólida (ou o equivalente), uma vez por rodada você pode gastar 3 PM para se teleportar para qualquer outro ponto em alcance curto sobre o mesmo tipo de terreno.</p><hr><p><em>Automação (módulo): o custo de 3 PM é descontado ao usar. O teleporte é feito na mesa.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "Uma vez por rodada; em terreno que não seja rocha sólida",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "Iw2uqLsNsGPwiiWj",
+   "name": "Mestre do Deserto",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [
+    {
+     "_id": "YlP6d2330LcTqfhZ",
+     "name": "Mestre do Deserto",
+     "img": "modules/classes-extras-t20/icons/miragem.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.Iw2uqLsNsGPwiiWj",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.dano.value",
+       "mode": 2,
+       "value": "20",
+       "priority": null
+      }
+     ],
+     "description": "RD 20 contra o dano sofrido.",
+     "transfer": false,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Miragem",
+     "nivel": 20
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 20º nível, enquanto estiver usando Dança da Areia, quando sofre dano você pode gastar 1 PM para receber RD 20 contra esse dano. Além disso, quando usa a ação agredir durante uma Dança da Areia, você pode gastar 1 PM para fazer um ataque adicional.</p><hr><p><em>Automação (módulo): ao usar, aplica RD 20 até o fim da cena (desligue o efeito depois de absorver o dano). O ataque adicional é feito na ficha.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "reaction",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "Ao sofrer dano durante uma Dança da Areia",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "XqtTpSqKgXDGi3Z6",
+   "name": "Poder de Caçador (Miragem)",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "nNXH0lWml1H2gAGB",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>A partir do 2º nível, você recebe esta habilidade como o caçador básico, mas não pode escolher os poderes Escaramuça e Escaramuça Superior.</p><hr><p><em>Automação (módulo): não automático. Arraste os poderes de caçador escolhidos.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Miragem",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Miragem"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "lizVov3kbK5EPiKi",
+   "name": "Arsenal do Deserto",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "pQjykdOo0LOT0oXv",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>Você recebe +2 nas rolagens de dano com azagaias, cimitarras e lanças. Para você, essas armas são armas leves.</p><hr><p><em>Automação (módulo): não automático: o bônus vale só para essas três armas, então some +2 na rolagem de dano delas.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Caçador",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Caçador"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "LrdyKjLOSns5Isdw",
+   "name": "Escaramuça Distante",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "pQjykdOo0LOT0oXv",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>Você pode usar Escaramuça e Dança da Areia contra alvos em alcance médio.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Caçador",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Caçador"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "FKiCtUSwpUSxYmdy",
+   "name": "Passo Duplo",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "pQjykdOo0LOT0oXv",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>Se estiver usando Escaramuça ou Dança da Areia e usar a ação agredir para fazer um ataque corpo a corpo com uma arma leve, você pode gastar 2 PM para fazer um ataque adicional.</p><hr><p><em>Automação (módulo): o custo de 2 PM é descontado ao usar. O ataque adicional é feito na ficha. O texto da revista diz “2 PE”; tratado aqui como PM.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "Usando Escaramuça ou Dança da Areia, ao agredir com arma leve corpo a corpo",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Caçador",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Caçador"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "rSqqHQoyRCSt1cln",
+   "name": "Passos Precisos",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "pQjykdOo0LOT0oXv",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>Enquanto estiver usando Escaramuça ou Dança da Areia, você recebe +2 na margem de ameaça de seus ataques.</p><hr><p><em>Automação (módulo): não automático: aplique +2 na margem de ameaça enquanto durar a dança ou a escaramuça.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Caçador",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Caçador"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "nh1kvOivu9rX69UH",
+   "name": "Tesouros da Natureza",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/miragem.webp",
+   "effects": [],
+   "folder": "pQjykdOo0LOT0oXv",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>Sempre que for bem-sucedido em montar um acampamento em terreno natural, você encontra frutos, insetos ou outros recursos naturais que recuperam 1 PM por patamar de cada personagem acampado.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #211, p. 49-51",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Caçador",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Caçador"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1792801873149,
+    "modifiedTime": 1792801873149,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
