@@ -91,3 +91,6 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.11.3
 - Dança da Areia: corrigida a fórmula do dado (o nível da classe era lido como 0).
+
+## v0.11.4
+- Inscrito e Diligente (Deuses de Arton p.54) agora também valem para ferramentas e vestuários, como no livro (o catálogo do Hayd só liberava armadura e escudo).

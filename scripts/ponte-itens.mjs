@@ -91,6 +91,17 @@ export function entradasExtras(catalogo) {
 	return out;
 }
 
+/**
+ * Correções de categoria em relação aos livros: Inscrito e Diligente valem para armaduras, escudos, ferramentas e
+ * vestuários (Deuses de Arton p.54, tabela 1-4), mas o catálogo do t20-hayd-itens só os libera para armadura e escudo.
+ * Entram como entradas de mesma chave, que substituem as originais.
+ */
+const AJUSTES_CATS = { inscrito: ["ferramenta", "vestuario"], diligente: ["ferramenta", "vestuario"] };
+function ajustesDeCategoria(catalogo) {
+	const mel = catalogo.obterMelhorias();
+	return Object.entries(AJUSTES_CATS).filter(([k]) => mel[k]).map(([k, mais]) => ({ ...mel[k], key: k, tipo: "melhoria", cats: [...new Set([...(mel[k].cats ?? []), ...mais])], origemExtra: MOD }));
+}
+
 /** Registra as entradas extras como fonte do catálogo do t20-hayd-itens (sem perder as homebrews dele). */
 export async function ligarAoItens() {
 	const mod = game.modules.get(ITENS);
@@ -101,7 +112,7 @@ export async function ligarAoItens() {
 		api = game.modules.get(ITENS)?.api;
 	}
 	if (!api?.catalogo?.registrarFonteHomebrew) { console.warn(`${MOD} | API do ${ITENS} indisponível: entradas extras não registradas.`); return false; }
-	const extras = entradasExtras(api.catalogo);
+	const extras = [...entradasExtras(api.catalogo), ...ajustesDeCategoria(api.catalogo)];
 	const base = api.homebrews;
 	api.catalogo.registrarFonteHomebrew(() => [...(base() ?? []), ...extras]);
 	console.log(`${MOD} | ${extras.length} entradas extras (melhorias, encantos e materiais) registradas no ${ITENS}.`);
