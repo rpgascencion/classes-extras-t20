@@ -96,7 +96,7 @@ export function entradasExtras(catalogo) {
  * vestuários (Deuses de Arton p.54, tabela 1-4), mas o catálogo do t20-hayd-itens só os libera para armadura e escudo.
  * Entram como entradas de mesma chave, que substituem as originais.
  */
-const AJUSTES_CATS = { inscrito: ["ferramenta", "vestuario"], diligente: ["ferramenta", "vestuario"] };
+const AJUSTES_CATS = { inscrito: ["ferramenta", "vestuario", "acessorio"], diligente: ["ferramenta", "vestuario", "acessorio"] };
 function ajustesDeCategoria(catalogo) {
 	const mel = catalogo.obterMelhorias();
 	return Object.entries(AJUSTES_CATS).filter(([k]) => mel[k]).map(([k, mais]) => ({ ...mel[k], key: k, tipo: "melhoria", cats: [...new Set([...(mel[k].cats ?? []), ...mais])], origemExtra: MOD }));

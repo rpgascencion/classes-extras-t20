@@ -94,3 +94,6 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.11.4
 - Inscrito e Diligente (Deuses de Arton p.54) agora também valem para ferramentas e vestuários, como no livro (o catálogo do Hayd só liberava armadura e escudo).
+
+## v0.11.5
+- Inscrito e Diligente também valem para acessórios (contam como vestuário).
