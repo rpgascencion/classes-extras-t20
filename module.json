@@ -77,5 +77,8 @@
   ],
   "styles": [
     "styles/condicoes.css"
-  ]
+  ],
+  "url": "https://github.com/rpgascencion/classes-extras-t20",
+  "manifest": "https://raw.githubusercontent.com/rpgascencion/classes-extras-t20/main/module.json",
+  "download": "https://github.com/rpgascencion/classes-extras-t20/raw/main/classes-extras-t20.zip"
 }
