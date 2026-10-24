@@ -3920,7 +3920,7 @@
       {
        "key": "system.modificadores.dano.geral",
        "mode": 2,
-       "value": "1d(4+2*floor((@nvl.miragem-1)/4))",
+       "value": "1d(4+2*floor((@nvl.miragem - 1)/4))",
        "priority": null
       }
      ],

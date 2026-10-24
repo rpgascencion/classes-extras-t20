@@ -88,3 +88,6 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.11.2
 - Defeitos: adicionado Emotivo.
+
+## v0.11.3
+- Dança da Areia: corrigida a fórmula do dado (o nível da classe era lido como 0).
