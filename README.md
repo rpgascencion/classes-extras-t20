@@ -85,3 +85,6 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.11.1
 - Defeitos: adicionados Assombrado, Cria de Nimb (Carisma –5 automático) e Maneta.
+
+## v0.11.2
+- Defeitos: adicionado Emotivo.
