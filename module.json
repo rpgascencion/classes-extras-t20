@@ -2,7 +2,7 @@
   "id": "classes-extras-t20",
   "title": "Classes e Extras (T20)",
   "description": "Classes e conteúdo extra para o Tormenta20, com os poderes automatizados sempre que o sistema permite. Classes: Sentinela e Comandante (Dragão Brasil #222). Condições automáticas: botão \"Aplicar Condição\" no chat (ao lado do dano), com duração em rodadas, até o fim da cena ou manual, e dano automático por turno (ex.: veneno). Inclui as 28 \"Novas Condições (DB)\" da wiki Tormenta Collab (Abençoado, Absorvendo, Alentado, Amordaçado, Aquecido, Arrefecido, Audacioso, Bêbado, Congelado, Contundido, Decaído, Desnorteado, Disposto, Eletrificado, Eletrizado, Fedido, Fortalecido, Intrépido, Leve, Molhado, Poderoso, Prevenido, Relaxado, Restaurando, Sonolento, Sufocado, Veloz, Vigoroso). Itens superiores: acrescenta ao sistema as melhorias e materiais que faltam (Dragão Brasil, Heróis de Arton, Ameaças de Arton, Rubi Gigante) e automatiza as que o sistema deixava manuais.",
-  "version": "0.11.7",
+  "version": "0.12.0",
   "authors": [
     {
       "name": "ASCUNCAO"

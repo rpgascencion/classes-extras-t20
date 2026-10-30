@@ -97,3 +97,7 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.11.5
 - Inscrito e Diligente também valem para acessórios (contam como vestuário).
+
+## v0.12.0
+- Porte da v14: texto `@STATUS[id]` (ex.: `@STATUS[abalado]` ou `@STATUS[abalado]{texto}`) em descrições, diários e chat. Mostra o ícone da condição e um botão "+" que a aplica aos tokens selecionados. Só é registrado na v13 (na v14 o sistema já traz o nativo).
+- v14: conversão de efeitos de uso/fim de cena dos compêndios e condições extras sem duplicar as nativas (v0.11.7).
