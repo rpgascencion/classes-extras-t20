@@ -31,13 +31,22 @@ const MOD_ID = "classes-extras-t20";
 /** Condições do sistema + condições extras deste módulo (a lista do sistema é congelada, por isso a junção é feita aqui). */
 const todasCondicoes = () => {
 	const extras = Object.fromEntries(CONDICOES_EXTRAS.map((c) => [c.id, c]));
-	return { ...extras, ...(CONFIG.T20?.conditions ?? {}) };
+	const sist = CONFIG.T20?.conditions
+		?? (Array.isArray(CONFIG.statusEffects) ? Object.fromEntries(CONFIG.statusEffects.map((e) => [e.id, e])) : CONFIG.statusEffects)
+		?? {};
+	return { ...extras, ...sist };
 };
 
 /* Registra as condições extras no HUD de status dos tokens. */
 Hooks.once("init", () => {
-	const ids = new Set((CONFIG.statusEffects ?? []).map((e) => e.id));
-	for (const c of CONDICOES_EXTRAS) if (!ids.has(c.id)) CONFIG.statusEffects.push(foundry.utils.deepClone(c));
+	const se = CONFIG.statusEffects;
+	if (Array.isArray(se)) {
+		const ids = new Set(se.map((e) => e.id));
+		for (const c of CONDICOES_EXTRAS) if (!ids.has(c.id)) se.push(foundry.utils.deepClone(c));
+	} else if (se && typeof se === "object") {
+		// Foundry v14 / T20 1.6+: statusEffects é um objeto indexado por id
+		for (const c of CONDICOES_EXTRAS) if (!se[c.id]) se[c.id] = foundry.utils.deepClone(c);
+	}
 });
 
 /* -------------------------------------------- */
@@ -242,6 +251,8 @@ async function aplicarCondicao(actor, { condKey, duracaoTipo, rounds, dano }) {
 
 	const flagsTormenta = foundry.utils.deepClone(base.flags?.tormenta20 ?? {});
 	flagsTormenta.durationScene = ehCena;
+	// v14: o fim de cena passou a ser um evento de expiração da duração
+	if (ehCena && game.release?.generation >= 14) duration.expiry = "sceneEnd";
 
 	const effectData = foundry.utils.mergeObject(
 		base,
