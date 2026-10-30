@@ -45,7 +45,10 @@ Hooks.once("init", () => {
 		for (const c of CONDICOES_EXTRAS) if (!ids.has(c.id)) se.push(foundry.utils.deepClone(c));
 	} else if (se && typeof se === "object") {
 		// Foundry v14 / T20 1.6+: statusEffects é um objeto indexado por id
-		for (const c of CONDICOES_EXTRAS) if (!se[c.id]) se[c.id] = foundry.utils.deepClone(c);
+		// e pula as que o sistema já traz nativamente (mesmo nome)
+		const norm = (t) => String(t ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
+		const nativos = new Set(Object.values(se).map((e) => norm(game.i18n?.localize?.(e.name) ?? e.name)));
+		for (const c of CONDICOES_EXTRAS) if (!se[c.id] && !nativos.has(norm(game.i18n?.localize?.(c.name) ?? c.name))) se[c.id] = foundry.utils.deepClone(c);
 	}
 });
 
