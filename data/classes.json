@@ -234,8 +234,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -256,8 +256,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5102,7 +5102,7 @@
    }
   },
   {
-   "_id": "QHh4L1K2171qTfAd",
+   "_id": "zqDwT7ofXmtkStYy",
    "name": "Capanga",
    "type": "classe",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
@@ -5137,8 +5137,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5296,8 +5296,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5380,8 +5380,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5464,8 +5464,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5477,7 +5477,380 @@
    "name": "Rápido e Rasteiro",
    "type": "poder",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
-   "effects": [],
+   "effects": [
+    {
+     "_id": "QHh4L1K2171qTfAd",
+     "name": "Rápido e Rasteiro +2 (Defesa e Iniciativa, 3º nível)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.uldROUapd6XomKKo",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": 0
+      },
+      {
+       "key": "system.pericias.inic.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "xL5bTa6x16ygvcMw",
+     "name": "Rápido e Rasteiro +2 (dano, 3º nível)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.uldROUapd6XomKKo",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "2",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "GzQfUzevXCk47oHP",
+     "name": "Rápido e Rasteiro +4 (Defesa e Iniciativa, 7º nível)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.uldROUapd6XomKKo",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "4",
+       "priority": 0
+      },
+      {
+       "key": "system.pericias.inic.bonus",
+       "mode": 2,
+       "value": "4",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "fbEVNZtMaVNl7sAF",
+     "name": "Rápido e Rasteiro +4 (dano, 7º nível)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.uldROUapd6XomKKo",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "4",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "gOOf3RbVIB57QNrt",
+     "name": "Rápido e Rasteiro +6 (Defesa e Iniciativa, 15º nível)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.uldROUapd6XomKKo",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "6",
+       "priority": 0
+      },
+      {
+       "key": "system.pericias.inic.bonus",
+       "mode": 2,
+       "value": "6",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "2VS5gvfA1cPfwQLt",
+     "name": "Rápido e Rasteiro +6 (dano, 15º nível)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.uldROUapd6XomKKo",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "6",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
    "folder": "tycIAKov6uE5Nxdg",
    "sort": 0,
    "flags": {
@@ -5488,7 +5861,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 3º nível, você recebe +2 em Iniciativa, Defesa e em rolagens de dano na primeira rodada de cada combate. Esse bônus aumenta para +4 no 7º nível e para +6 no 15º nível.</p><hr><p><em>Automação (módulo): não automático (o bônus vale só na primeira rodada de cada combate). Aplique manualmente.</em></p>",
+     "value": "<p>No 3º nível, você recebe +2 em Iniciativa, Defesa e em rolagens de dano na primeira rodada de cada combate. Esse bônus aumenta para +4 no 7º nível e para +6 no 15º nível.</p><hr><p><em>Automação (módulo): não automático (o bônus vale só na primeira rodada de cada combate). Aplique manualmente.</em></p><hr><p><em>Automação (módulo): há 3 pares de efeitos (+2, +4, +6), todos desativados. Na 1ª rodada do combate, ative o par do seu nível (+2 do 3º, +4 do 7º, +6 do 15º): um altera Defesa e Iniciativa e o outro soma o dano no ataque (opção no uso do ataque). Desative-os depois da 1ª rodada.</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5548,8 +5921,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5561,7 +5934,67 @@
    "name": "Cara Feia",
    "type": "poder",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
-   "effects": [],
+   "effects": [
+    {
+     "_id": "rds5SwPJ45xXlKBm",
+     "name": "Cara Feia (+5 contra medo e intimidação)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.JB7u4zBTgPYmaev4",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": true,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "roll",
+       "mode": 2,
+       "value": "5",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
    "folder": "tycIAKov6uE5Nxdg",
    "sort": 0,
    "flags": {
@@ -5572,7 +6005,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 4º nível, você recebe +5 em testes de resistência contra efeitos de Medo e em testes de Vontade para resistir a intimidações.</p><hr><p><em>Automação (módulo): não automático (bônus condicional).</em></p>",
+     "value": "<p>No 4º nível, você recebe +5 em testes de resistência contra efeitos de Medo e em testes de Vontade para resistir a intimidações.</p><hr><p><em>Automação (módulo): não automático (bônus condicional).</em></p><hr><p><em>Automação (módulo): efeito desativado, como o poder Convencido do sistema: ao rolar o teste de resistência/Vontade contra medo ou intimidação, a opção de uso soma +5.</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5632,8 +6065,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5645,7 +6078,67 @@
    "name": "Flanquear Aprimorado",
    "type": "poder",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
-   "effects": [],
+   "effects": [
+    {
+     "_id": "LUgy6H40ilwOnFQR",
+     "name": "Flanquear Aprimorado (+2 adicional)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.xOaHMUCphgNaDeDy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ataque",
+       "mode": 2,
+       "value": "2",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
    "folder": "tycIAKov6uE5Nxdg",
    "sort": 0,
    "flags": {
@@ -5656,7 +6149,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 6º nível, o bônus que você recebe contra oponentes flanqueados aumenta para +4 (em vez de +2).</p><hr><p><em>Automação (módulo): não automático (bônus condicional).</em></p>",
+     "value": "<p>No 6º nível, o bônus que você recebe contra oponentes flanqueados aumenta para +4 (em vez de +2).</p><hr><p><em>Automação (módulo): não automático (bônus condicional).</em></p><hr><p><em>Automação (módulo): efeito desativado, como o poder Valentão do sistema: ao atacar um oponente flanqueado, use a opção para somar +2 ao ataque, completando o bônus total de +4 (o +2 padrão do flanco continua sendo aplicado como de costume).</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5716,8 +6209,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5800,8 +6293,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5884,8 +6377,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5897,7 +6390,67 @@
    "name": "Debulhar Inimigos",
    "type": "poder",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
-   "effects": [],
+   "effects": [
+    {
+     "_id": "I6INPSBMDpB2J4SA",
+     "name": "Debulhar Inimigos (ataque furtivo sem condição, 5 PM)",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.JWaUkwLoDmiZji6m",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "5"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "(floor((@nvl.capanga+1)/2))d8",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
    "folder": "tycIAKov6uE5Nxdg",
    "sort": 0,
    "flags": {
@@ -5908,7 +6461,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 20º nível, você já perdeu a paciência com inimigos cheios de truques ou que são resistentes às suas habilidades. Seus ataques furtivos ignoram imunidades de criaturas a acertos críticos. Além disso, você pode gastar 5 PM quando faz um ataque para usar seu ataque furtivo mesmo que o alvo não esteja desprevenido ou que você não o esteja flanqueando.</p><hr><p><em>Automação (módulo): o custo de 5 PM é descontado ao usar. O efeito sobre o ataque furtivo é manual.</em></p>",
+     "value": "<p>No 20º nível, você já perdeu a paciência com inimigos cheios de truques ou que são resistentes às suas habilidades. Seus ataques furtivos ignoram imunidades de criaturas a acertos críticos. Além disso, você pode gastar 5 PM quando faz um ataque para usar seu ataque furtivo mesmo que o alvo não esteja desprevenido ou que você não o esteja flanqueando.</p><hr><p><em>Automação (módulo): ver efeito abaixo.</em></p><hr><p><em>Automação (módulo): efeito desativado que gasta 5 PM e soma o dano do Ataque Furtivo Brutal mesmo sem alvo desprevenido ou flanqueado. Use este efeito no lugar do efeito do Ataque Furtivo Brutal (não ative os dois juntos). A imunidade a acertos críticos ignorada é manual.</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5968,8 +6521,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793746045015,
-    "modifiedTime": 1793746045015,
+    "createdTime": 1793746111153,
+    "modifiedTime": 1793746111153,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,

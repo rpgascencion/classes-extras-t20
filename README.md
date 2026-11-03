@@ -109,3 +109,6 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 ## v0.13.1
 - Capanga: textos de Evasão, Poder de Ladino, Olho nas Costas e Evasão Aprimorada copiados do ladino do Livro Básico; PV (12 + 3/nível), PM (4/nível) e proficiências (nenhuma) conforme o ladino.
 - Capanga: **Ataque Furtivo Brutal** automatizado como o Ataque Furtivo do ladino — efeito "ao usar" (ataque) que soma o dano extra, calculado pelo nível de Capanga (1d8 +1d8 a cada dois níveis).
+
+## v0.13.2
+- Capanga: mais automações, seguindo o padrão de poderes parecidos do sistema (efeitos desativados que você liga quando valem): **Rápido e Rasteiro** (pares +2/+4/+6 de Defesa/Iniciativa e de dano), **Cara Feia** (+5 em teste, como Convencido), **Flanquear Aprimorado** (+2 de ataque adicional, como Valentão) e **Debulhar Inimigos** (5 PM + dano do ataque furtivo sem condição).
