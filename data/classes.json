@@ -234,8 +234,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -256,8 +256,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5102,7 +5102,7 @@
    }
   },
   {
-   "_id": "nHorxGYgZKOI1oiw",
+   "_id": "QHh4L1K2171qTfAd",
    "name": "Capanga",
    "type": "classe",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
@@ -5112,7 +5112,7 @@
    "flags": {},
    "system": {
     "description": {
-     "value": "<p>“Quer saber a melhor maneira de roubar algo? Bata no dono. Bata com força.”</p><p>Em vielas úmidas, cortiços esquecidos e tavernas onde até a luz evita entrar, o crime raramente envolve acrobacias elegantes ou truques engenhosos. A vida é direta e cruel. Nesse cenário, nasce o capanga. Ele é o ladino que trocou sutileza por brutalidade: um sujeito de punhos pesados e paciência curta, que resolve problemas do jeito mais simples possível — acertando primeiro.</p><h3>Características de Classe</h3><p><strong>Pontos de Vida.</strong> Como o ladino básico (Tormenta20, p. 72).</p><p><strong>Pontos de Mana.</strong> Como o ladino básico.</p><p><strong>Perícias.</strong> Ladinagem (Des) e Enganação (Des), mais 6 a sua escolha entre Acrobacia (Des), Atletismo (For), Atuação (Car), Cavalgar (Des), Conhecimento (Int), Diplomacia (Car), Furtividade (Des), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Investigação (Int), Jogatina (Car), Luta (For), Ofício (Int), Percepção (Sab), Pilotagem (Des), Pontaria (Des) e Reflexos (Des).</p><p><strong>Proficiências.</strong> Como o ladino básico.</p><h3>Tabela: O Capanga</h3><table><thead><tr><th>Nível</th><th>Habilidades de Classe</th></tr></thead><tbody><tr><td>1º</td><td>Ataque furtivo brutal +1d8</td></tr><tr><td>2º</td><td>Evasão, poder de ladino</td></tr><tr><td>3º</td><td>Ataque furtivo brutal +2d8, poder de ladino, rápido e rasteiro +2</td></tr><tr><td>4º</td><td>Cara feia, poder de ladino</td></tr><tr><td>5º</td><td>Ataque furtivo brutal +3d8, poder de ladino</td></tr><tr><td>6º</td><td>Flanquear aprimorado, poder de ladino</td></tr><tr><td>7º</td><td>Ataque furtivo brutal +4d8, poder de ladino, rápido e rasteiro +4</td></tr><tr><td>8º</td><td>Olho nas costas, poder de ladino</td></tr><tr><td>9º</td><td>Ataque furtivo brutal +5d8, poder de ladino</td></tr><tr><td>10º</td><td>Evasão aprimorada, poder de ladino</td></tr><tr><td>11º</td><td>Ataque furtivo brutal +6d8, poder de ladino</td></tr><tr><td>12º</td><td>Poder de ladino</td></tr><tr><td>13º</td><td>Ataque furtivo brutal +7d8, poder de ladino</td></tr><tr><td>14º</td><td>Poder de ladino</td></tr><tr><td>15º</td><td>Ataque furtivo brutal +8d8, poder de ladino, rápido e rasteiro +6</td></tr><tr><td>16º</td><td>Poder de ladino</td></tr><tr><td>17º</td><td>Ataque furtivo brutal +9d8, poder de ladino</td></tr><tr><td>18º</td><td>Poder de ladino</td></tr><tr><td>19º</td><td>Ataque furtivo brutal +10d8, poder de ladino</td></tr><tr><td>20º</td><td>Debulhar inimigos, poder de ladino</td></tr></tbody></table><p><em>Variante do ladino. A classe variante funciona como sua contraparte básica para efeitos de lista de poderes e pré-requisitos; não se pode fazer multiclasse entre uma classe básica e suas variantes, e a escolha é feita ao criar o personagem ou ao alcançar o 1º nível da classe.</em></p><hr><p><em>Automação (módulo): PV/PM por nível (ladino básico: 3 PV e 4 PM), perícias e habilidades de classe (arraste da pasta Capanga › Habilidades de Classe do mesmo compêndio).</em></p>",
+     "value": "<p>“Quer saber a melhor maneira de roubar algo? Bata no dono. Bata com força.”</p><p>Em vielas úmidas, cortiços esquecidos e tavernas onde até a luz evita entrar, o crime raramente envolve acrobacias elegantes ou truques engenhosos. A vida é direta e cruel. Nesse cenário, nasce o capanga. Ele é o ladino que trocou sutileza por brutalidade: um sujeito de punhos pesados e paciência curta, que resolve problemas do jeito mais simples possível — acertando primeiro.</p><h3>Características de Classe</h3><p><strong>Pontos de Vida.</strong> Como o ladino básico: um capanga começa com 12 pontos de vida + Constituição e ganha 3 PV + Constituição por nível.</p><p><strong>Pontos de Mana.</strong> Como o ladino básico: 4 PM por nível.</p><p><strong>Perícias.</strong> Ladinagem (Des) e Enganação (Des), mais 6 a sua escolha entre Acrobacia (Des), Atletismo (For), Atuação (Car), Cavalgar (Des), Conhecimento (Int), Diplomacia (Car), Furtividade (Des), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Investigação (Int), Jogatina (Car), Luta (For), Ofício (Int), Percepção (Sab), Pilotagem (Des), Pontaria (Des) e Reflexos (Des).</p><p><strong>Proficiências.</strong> Como o ladino básico (nenhuma).</p><h3>Tabela: O Capanga</h3><table><thead><tr><th>Nível</th><th>Habilidades de Classe</th></tr></thead><tbody><tr><td>1º</td><td>Ataque furtivo brutal +1d8</td></tr><tr><td>2º</td><td>Evasão, poder de ladino</td></tr><tr><td>3º</td><td>Ataque furtivo brutal +2d8, poder de ladino, rápido e rasteiro +2</td></tr><tr><td>4º</td><td>Cara feia, poder de ladino</td></tr><tr><td>5º</td><td>Ataque furtivo brutal +3d8, poder de ladino</td></tr><tr><td>6º</td><td>Flanquear aprimorado, poder de ladino</td></tr><tr><td>7º</td><td>Ataque furtivo brutal +4d8, poder de ladino, rápido e rasteiro +4</td></tr><tr><td>8º</td><td>Olho nas costas, poder de ladino</td></tr><tr><td>9º</td><td>Ataque furtivo brutal +5d8, poder de ladino</td></tr><tr><td>10º</td><td>Evasão aprimorada, poder de ladino</td></tr><tr><td>11º</td><td>Ataque furtivo brutal +6d8, poder de ladino</td></tr><tr><td>12º</td><td>Poder de ladino</td></tr><tr><td>13º</td><td>Ataque furtivo brutal +7d8, poder de ladino</td></tr><tr><td>14º</td><td>Poder de ladino</td></tr><tr><td>15º</td><td>Ataque furtivo brutal +8d8, poder de ladino, rápido e rasteiro +6</td></tr><tr><td>16º</td><td>Poder de ladino</td></tr><tr><td>17º</td><td>Ataque furtivo brutal +9d8, poder de ladino</td></tr><tr><td>18º</td><td>Poder de ladino</td></tr><tr><td>19º</td><td>Ataque furtivo brutal +10d8, poder de ladino</td></tr><tr><td>20º</td><td>Debulhar inimigos, poder de ladino</td></tr></tbody></table><p><em>Variante do ladino. A classe variante funciona como sua contraparte básica para efeitos de lista de poderes e pré-requisitos; não se pode fazer multiclasse entre uma classe básica e suas variantes, e a escolha é feita ao criar o personagem ou ao alcançar o 1º nível da classe.</em></p><hr><p><em>Automação (módulo): PV/PM por nível (ladino básico: 3 PV e 4 PM), perícias e habilidades de classe (arraste da pasta Capanga › Habilidades de Classe do mesmo compêndio).</em></p>",
      "unidentified": ""
     },
     "source": "Dragão Brasil #223, p. 63-65",
@@ -5137,8 +5137,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5150,7 +5150,67 @@
    "name": "Ataque Furtivo Brutal",
    "type": "poder",
    "img": "modules/classes-extras-t20/icons/capanga.webp",
-   "effects": [],
+   "effects": [
+    {
+     "_id": "nHorxGYgZKOI1oiw",
+     "name": "Ataque Furtivo Brutal",
+     "img": "modules/classes-extras-t20/icons/capanga.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.classes.Item.wjqLWsnWao9e92Lx",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "(floor((@nvl.capanga+1)/2))d8",
+       "priority": 0
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
    "folder": "tycIAKov6uE5Nxdg",
    "sort": 0,
    "flags": {
@@ -5161,7 +5221,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>Você sabe aproveitar a distração do inimigo para atingir seus pontos vitais. Uma vez por rodada, quando atinge uma criatura desprevenida com um ataque corpo a corpo, ou uma criatura que esteja flanqueando, você causa 1d8 pontos de dano extra. A cada dois níveis, esse dano aumenta em +1d8. Uma criatura imune a acertos críticos também é imune a ataques furtivos.</p><hr><p><em>Automação (módulo): não automático. O dano extra é +1d8 no 1º nível, +2d8 no 3º, +3d8 no 5º e assim por diante, até +10d8 no 19º nível. Role o dano extra à parte quando as condições forem cumpridas.</em></p>",
+     "value": "<p>Você sabe aproveitar a distração do inimigo para atingir seus pontos vitais. Uma vez por rodada, quando atinge uma criatura desprevenida com um ataque corpo a corpo, ou uma criatura que esteja flanqueando, você causa 1d8 pontos de dano extra. A cada dois níveis, esse dano aumenta em +1d8. Uma criatura imune a acertos críticos também é imune a ataques furtivos.</p><hr><p><em>Automação (módulo): o efeito “Ataque Furtivo Brutal” vem desativado. Ao atacar, o sistema oferece a opção de usá-lo e soma o dano extra (1d8 no 1º nível, +1d8 a cada dois níveis, calculado pelo nível de Capanga). Ative-o só quando as condições forem cumpridas (alvo desprevenido ou flanqueado, uma vez por rodada).</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5204,7 +5264,22 @@
      "bonus": 0,
      "txt": ""
     },
-    "rolls": [],
+    "rolls": [
+     {
+      "name": "Dano Furtivo",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "(floor((@nvl.capanga+1)/2))d8",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
     "tipo": "ability",
     "subtipo": "Capanga",
     "chatFlavor": "",
@@ -5221,8 +5296,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5245,13 +5320,13 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 2º nível, você recebe esta habilidade como o ladino básico (Tormenta20, p. 72).</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "value": "<p>No 2º nível, você recebe esta habilidade como o ladino básico. A partir do 2º nível, quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar. Você ainda sofre dano normal se falhar no teste de Reflexos. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
      "chat": "",
      "unidentified": ""
     },
     "source": "Dragão Brasil #223, p. 63-65",
     "ativacao": {
-     "execucao": "passive",
+     "execucao": "reaction",
      "custo": 0,
      "qtd": "",
      "condicao": "",
@@ -5305,8 +5380,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5329,7 +5404,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>A partir do 2º nível, você recebe esta habilidade como o ladino básico.</p><hr><p><em>Automação (módulo): não automático. Arraste os poderes de ladino escolhidos nos níveis indicados.</em></p>",
+     "value": "<p>A partir do 2º nível, você recebe esta habilidade como o ladino básico. No 2º nível, e a cada nível seguinte, você escolhe um dos poderes de ladino (Aumento de Atributo, Assassinar, Contatos no Submundo, Emboscar, Escapista, Fuga Formidável, Gatuno, Ladrão Arcano, Mão na Boca, Mãos Rápidas, Mente Criminosa, Oportunismo, Rolamento Defensivo, Roubo de Mana, Saqueador de Tumbas, Sombra, Truque Mágico, Velocidade Ladina, Veneno Persistente, Veneno Potente).</p><hr><p><em>Automação (módulo): não automático. Arraste os poderes de ladino escolhidos, na pasta de poderes de Ladino do sistema, nos níveis indicados.</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5389,8 +5464,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5473,8 +5548,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5557,8 +5632,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5641,8 +5716,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5665,7 +5740,7 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 8º nível, você recebe esta habilidade como o ladino básico.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "value": "<p>No 8º nível, você recebe esta habilidade como o ladino básico. A partir do 8º nível, você consegue lutar contra diversos inimigos como se fossem apenas um. Você não pode ser flanqueado.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
      "chat": "",
      "unidentified": ""
     },
@@ -5725,8 +5800,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5749,13 +5824,13 @@
    },
    "system": {
     "description": {
-     "value": "<p>No 10º nível, você recebe esta habilidade como o ladino básico.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "value": "<p>No 10º nível, você recebe esta habilidade como o ladino básico. Quando sofre um efeito que permite um teste de Reflexos para reduzir o dano à metade, você não sofre dano algum se passar e sofre apenas metade do dano se falhar. Esta habilidade exige liberdade de movimentos; você não pode usá-la se estiver de armadura pesada ou na condição imóvel.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
      "chat": "",
      "unidentified": ""
     },
     "source": "Dragão Brasil #223, p. 63-65",
     "ativacao": {
-     "execucao": "passive",
+     "execucao": "reaction",
      "custo": 0,
      "qtd": "",
      "condicao": "",
@@ -5809,8 +5884,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
@@ -5893,8 +5968,8 @@
     "systemId": "tormenta20",
     "systemVersion": "1.5.015",
     "coreVersion": "13.344",
-    "createdTime": 1793745760854,
-    "modifiedTime": 1793745760854,
+    "createdTime": 1793746045015,
+    "modifiedTime": 1793746045015,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,

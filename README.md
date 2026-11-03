@@ -105,3 +105,7 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 ## v0.13.0
 - Nova classe variante **Capanga** (variante do Ladino) — Dragão Brasil #223, p. 63-65, com todas as habilidades de classe em pasta própria.
 - **Cruzado** conferido com a Dragão Brasil #223 (p. 65-67); fonte atualizada.
+
+## v0.13.1
+- Capanga: textos de Evasão, Poder de Ladino, Olho nas Costas e Evasão Aprimorada copiados do ladino do Livro Básico; PV (12 + 3/nível), PM (4/nível) e proficiências (nenhuma) conforme o ladino.
+- Capanga: **Ataque Furtivo Brutal** automatizado como o Ataque Furtivo do ladino — efeito "ao usar" (ataque) que soma o dano extra, calculado pelo nível de Capanga (1d8 +1d8 a cada dois níveis).
