@@ -101,3 +101,7 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 ## v0.12.0
 - Porte da v14: texto `@STATUS[id]` (ex.: `@STATUS[abalado]` ou `@STATUS[abalado]{texto}`) em descrições, diários e chat. Mostra o ícone da condição e um botão "+" que a aplica aos tokens selecionados. Só é registrado na v13 (na v14 o sistema já traz o nativo).
 - v14: conversão de efeitos de uso/fim de cena dos compêndios e condições extras sem duplicar as nativas (v0.11.7).
+
+## v0.13.0
+- Nova classe variante **Capanga** (variante do Ladino) — Dragão Brasil #223, p. 63-65, com todas as habilidades de classe em pasta própria.
+- **Cruzado** conferido com a Dragão Brasil #223 (p. 65-67); fonte atualizada.

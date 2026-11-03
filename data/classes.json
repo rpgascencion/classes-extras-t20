@@ -219,6 +219,50 @@
     "exportSource": null,
     "compendiumSource": null
    }
+  },
+  {
+   "_id": "dfuhvXTIm3I7VG5F",
+   "name": "Capanga",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 0,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "tycIAKov6uE5Nxdg",
+   "name": "Habilidades de Classe",
+   "type": "Item",
+   "folder": "dfuhvXTIm3I7VG5F",
+   "sorting": "a",
+   "sort": 0,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
   }
  ],
  "items": [
@@ -3068,7 +3112,7 @@
      "value": "<p>Entre os sacerdotes, o cruzado é o que mais vive com um pé no campo de batalha. Seus templos lembram fortalezas, seus hinos soam como comandos militares, e suas orações terminam com o ar metálico do aço sendo desembainhado. Para o cruzado, empunhar uma arma é tão sagrado quanto erguer um símbolo divino — às vezes, até mais.</p><p>Enquanto muitos clérigos veem a fé como guia espiritual, o cruzado a trata como missão. Luta para proteger santuários isolados, marcha por fronteiras perigosas e permanece onde outros não poderiam. É enviado para locais onde o dogma precisa de muralhas, e onde cada inimigo derrotado é mais um triunfo dedicado à sua divindade.</p><h3>Características de Classe</h3><p><strong>Pontos de Vida.</strong> Um cruzado começa com 16 pontos de vida + Constituição e ganha 4 PV + Constituição por nível.</p><p><strong>Pontos de Mana.</strong> 5 PM por nível.</p><p><strong>Perícias.</strong> Luta (For) ou Pontaria (Des) e Religião (Sab), mais 2 a sua escolha entre Conhecimento (Int), Cura (Sab), Diplomacia (Car), Fortitude (Con), Iniciativa (Des), Intuição (Sab), Luta (For), Misticismo (Int), Nobreza (Int), Ofício (Int), Percepção (Sab), Pontaria (Des) e Vontade (Sab).</p><p><strong>Proficiências.</strong> Armas marciais, armaduras pesadas e escudos.</p><h3>Tabela: O Cruzado</h3><table><thead><tr><th>Nível</th><th>Habilidades de Classe</th></tr></thead><tbody><tr><td>1º</td><td>Devoto fiel, magias (1º círculo), presente dos deuses (1 melhoria)</td></tr><tr><td>2º</td><td>Alma guerreira, poder de clérigo</td></tr><tr><td>3º</td><td>Fé inabalável, poder de clérigo</td></tr><tr><td>4º</td><td>Poder de clérigo</td></tr><tr><td>5º</td><td>Magias (2º círculo), poder de clérigo, presente dos deuses (2 melhorias)</td></tr><tr><td>6º</td><td>Poder de clérigo</td></tr><tr><td>7º</td><td>Poder de clérigo</td></tr><tr><td>8º</td><td>Poder de clérigo, presente dos deuses (3 melhorias)</td></tr><tr><td>9º</td><td>Magias (3º círculo), poder de clérigo, presente dos deuses (3 melhorias, 1 encanto)</td></tr><tr><td>10º</td><td>Oração marcial, poder de clérigo</td></tr><tr><td>11º</td><td>Poder de clérigo, presente dos deuses (4 melhorias, 1 encanto)</td></tr><tr><td>12º</td><td>Poder de clérigo</td></tr><tr><td>13º</td><td>Magias (4º círculo), poder de clérigo</td></tr><tr><td>14º</td><td>Poder de clérigo, presente dos deuses (4 melhorias, 2 encantos)</td></tr><tr><td>15º</td><td>Poder de clérigo</td></tr><tr><td>16º</td><td>Poder de clérigo</td></tr><tr><td>17º</td><td>Magias (5º círculo), poder de clérigo</td></tr><tr><td>18º</td><td>Poder de clérigo, presente dos deuses (4 melhorias, 3 encantos)</td></tr><tr><td>19º</td><td>Poder de clérigo</td></tr><tr><td>20º</td><td>Guerreiro santificado, poder de clérigo</td></tr></tbody></table><p><strong>Poder de Clérigo.</strong> A partir do 2º nível, você recebe esta habilidade como o clérigo básico.</p><hr><p><em>Automação (módulo): PV e PM por nível, perícias da classe e os poderes de classe (arraste os poderes da pasta Cruzado › Habilidades de Classe do mesmo compêndio). O PV do 1º nível (16) já é o padrão do sistema, então não há ajuste. Conjuração com Sabedoria está no poder Magias (Cruzado).</em></p>",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "niveis": 1,
     "pvPorNivel": 4,
     "pmPorNivel": 5,
@@ -3118,7 +3162,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "passive",
      "custo": 0,
@@ -3268,7 +3312,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "passive",
      "custo": 0,
@@ -3352,7 +3396,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "move",
      "custo": 2,
@@ -3436,7 +3480,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "passive",
      "custo": 0,
@@ -3515,7 +3559,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "passive",
      "custo": 0,
@@ -3599,7 +3643,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "passive",
      "custo": 0,
@@ -3683,7 +3727,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "hour",
      "custo": 5,
@@ -3767,7 +3811,7 @@
      "chat": "",
      "unidentified": ""
     },
-    "source": "Wiki Tormenta Collab — Cruzado",
+    "source": "Dragão Brasil #223, p. 65-67",
     "ativacao": {
      "execucao": "passive",
      "custo": 0,
@@ -5051,6 +5095,806 @@
     "coreVersion": "13.344",
     "createdTime": 1792801873149,
     "modifiedTime": 1792801873149,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "nHorxGYgZKOI1oiw",
+   "name": "Capanga",
+   "type": "classe",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "dfuhvXTIm3I7VG5F",
+   "sort": 0,
+   "flags": {},
+   "system": {
+    "description": {
+     "value": "<p>“Quer saber a melhor maneira de roubar algo? Bata no dono. Bata com força.”</p><p>Em vielas úmidas, cortiços esquecidos e tavernas onde até a luz evita entrar, o crime raramente envolve acrobacias elegantes ou truques engenhosos. A vida é direta e cruel. Nesse cenário, nasce o capanga. Ele é o ladino que trocou sutileza por brutalidade: um sujeito de punhos pesados e paciência curta, que resolve problemas do jeito mais simples possível — acertando primeiro.</p><h3>Características de Classe</h3><p><strong>Pontos de Vida.</strong> Como o ladino básico (Tormenta20, p. 72).</p><p><strong>Pontos de Mana.</strong> Como o ladino básico.</p><p><strong>Perícias.</strong> Ladinagem (Des) e Enganação (Des), mais 6 a sua escolha entre Acrobacia (Des), Atletismo (For), Atuação (Car), Cavalgar (Des), Conhecimento (Int), Diplomacia (Car), Furtividade (Des), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Investigação (Int), Jogatina (Car), Luta (For), Ofício (Int), Percepção (Sab), Pilotagem (Des), Pontaria (Des) e Reflexos (Des).</p><p><strong>Proficiências.</strong> Como o ladino básico.</p><h3>Tabela: O Capanga</h3><table><thead><tr><th>Nível</th><th>Habilidades de Classe</th></tr></thead><tbody><tr><td>1º</td><td>Ataque furtivo brutal +1d8</td></tr><tr><td>2º</td><td>Evasão, poder de ladino</td></tr><tr><td>3º</td><td>Ataque furtivo brutal +2d8, poder de ladino, rápido e rasteiro +2</td></tr><tr><td>4º</td><td>Cara feia, poder de ladino</td></tr><tr><td>5º</td><td>Ataque furtivo brutal +3d8, poder de ladino</td></tr><tr><td>6º</td><td>Flanquear aprimorado, poder de ladino</td></tr><tr><td>7º</td><td>Ataque furtivo brutal +4d8, poder de ladino, rápido e rasteiro +4</td></tr><tr><td>8º</td><td>Olho nas costas, poder de ladino</td></tr><tr><td>9º</td><td>Ataque furtivo brutal +5d8, poder de ladino</td></tr><tr><td>10º</td><td>Evasão aprimorada, poder de ladino</td></tr><tr><td>11º</td><td>Ataque furtivo brutal +6d8, poder de ladino</td></tr><tr><td>12º</td><td>Poder de ladino</td></tr><tr><td>13º</td><td>Ataque furtivo brutal +7d8, poder de ladino</td></tr><tr><td>14º</td><td>Poder de ladino</td></tr><tr><td>15º</td><td>Ataque furtivo brutal +8d8, poder de ladino, rápido e rasteiro +6</td></tr><tr><td>16º</td><td>Poder de ladino</td></tr><tr><td>17º</td><td>Ataque furtivo brutal +9d8, poder de ladino</td></tr><tr><td>18º</td><td>Poder de ladino</td></tr><tr><td>19º</td><td>Ataque furtivo brutal +10d8, poder de ladino</td></tr><tr><td>20º</td><td>Debulhar inimigos, poder de ladino</td></tr></tbody></table><p><em>Variante do ladino. A classe variante funciona como sua contraparte básica para efeitos de lista de poderes e pré-requisitos; não se pode fazer multiclasse entre uma classe básica e suas variantes, e a escolha é feita ao criar o personagem ou ao alcançar o 1º nível da classe.</em></p><hr><p><em>Automação (módulo): PV/PM por nível (ladino básico: 3 PV e 4 PM), perícias e habilidades de classe (arraste da pasta Capanga › Habilidades de Classe do mesmo compêndio).</em></p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "niveis": 1,
+    "pvPorNivel": 3,
+    "pmPorNivel": 4,
+    "inicial": false,
+    "rolls": [],
+    "origin": "",
+    "tags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "pericias": {
+     "inatas": "Ladinagem (Des) e Enganação (Des), mais 6 a sua escolha entre Acrobacia (Des), Atletismo (For), Atuação (Car), Cavalgar (Des), Conhecimento (Int), Diplomacia (Car), Furtividade (Des), Iniciativa (Des), Intimidação (Car), Intuição (Sab), Investigação (Int), Jogatina (Car), Luta (For), Ofício (Int), Percepção (Sab), Pilotagem (Des), Pontaria (Des) e Reflexos (Des).",
+     "numero": 6
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "wjqLWsnWao9e92Lx",
+   "name": "Ataque Furtivo Brutal",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 1
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você sabe aproveitar a distração do inimigo para atingir seus pontos vitais. Uma vez por rodada, quando atinge uma criatura desprevenida com um ataque corpo a corpo, ou uma criatura que esteja flanqueando, você causa 1d8 pontos de dano extra. A cada dois níveis, esse dano aumenta em +1d8. Uma criatura imune a acertos críticos também é imune a ataques furtivos.</p><hr><p><em>Automação (módulo): não automático. O dano extra é +1d8 no 1º nível, +2d8 no 3º, +3d8 no 5º e assim por diante, até +10d8 no 19º nível. Role o dano extra à parte quando as condições forem cumpridas.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "g4rgIN39vvgjIdCS",
+   "name": "Evasão",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 2
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 2º nível, você recebe esta habilidade como o ladino básico (Tormenta20, p. 72).</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "Cepx394ZSNstOKOI",
+   "name": "Poder de Ladino",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 2
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>A partir do 2º nível, você recebe esta habilidade como o ladino básico.</p><hr><p><em>Automação (módulo): não automático. Arraste os poderes de ladino escolhidos nos níveis indicados.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "uldROUapd6XomKKo",
+   "name": "Rápido e Rasteiro",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 3
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 3º nível, você recebe +2 em Iniciativa, Defesa e em rolagens de dano na primeira rodada de cada combate. Esse bônus aumenta para +4 no 7º nível e para +6 no 15º nível.</p><hr><p><em>Automação (módulo): não automático (o bônus vale só na primeira rodada de cada combate). Aplique manualmente.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "JB7u4zBTgPYmaev4",
+   "name": "Cara Feia",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 4
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 4º nível, você recebe +5 em testes de resistência contra efeitos de Medo e em testes de Vontade para resistir a intimidações.</p><hr><p><em>Automação (módulo): não automático (bônus condicional).</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "xOaHMUCphgNaDeDy",
+   "name": "Flanquear Aprimorado",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 6
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 6º nível, o bônus que você recebe contra oponentes flanqueados aumenta para +4 (em vez de +2).</p><hr><p><em>Automação (módulo): não automático (bônus condicional).</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "6EobktrRqwb6Xgwn",
+   "name": "Olho nas Costas",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 8
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 8º nível, você recebe esta habilidade como o ladino básico.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "X0sBbDzEn7zBX0qA",
+   "name": "Evasão Aprimorada",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 10
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 10º nível, você recebe esta habilidade como o ladino básico.</p><hr><p><em>Automação (módulo): não automático.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "JWaUkwLoDmiZji6m",
+   "name": "Debulhar Inimigos",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/capanga.webp",
+   "effects": [],
+   "folder": "tycIAKov6uE5Nxdg",
+   "sort": 0,
+   "flags": {
+    "classes-extras-t20": {
+     "classe": "Capanga",
+     "nivel": 20
+    }
+   },
+   "system": {
+    "description": {
+     "value": "<p>No 20º nível, você já perdeu a paciência com inimigos cheios de truques ou que são resistentes às suas habilidades. Seus ataques furtivos ignoram imunidades de criaturas a acertos críticos. Além disso, você pode gastar 5 PM quando faz um ataque para usar seu ataque furtivo mesmo que o alvo não esteja desprevenido ou que você não o esteja flanqueando.</p><hr><p><em>Automação (módulo): o custo de 5 PM é descontado ao usar. O efeito sobre o ataque furtivo é manual.</em></p>",
+     "chat": "",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #223, p. 63-65",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 5,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "ability",
+    "subtipo": "Capanga",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Capanga"
+    ],
+    "chatGif": ""
+   },
+   "ownership": {
+    "default": 0
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1793745760854,
+    "modifiedTime": 1793745760854,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
