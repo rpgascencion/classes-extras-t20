@@ -209,7 +209,13 @@ async function rolarRodadas(rounds, actor, nomeCondicao) {
 }
 
 async function aplicarCondicao(actor, { condKey, duracaoTipo, rounds, dano }) {
-	const base = foundry.utils.deepClone(todasCondicoes()[condKey]);
+	// v14 (T20 1.6): as condições do sistema em CONFIG.statusEffects são só um resumo;
+	// o efeito completo vem do compêndio, pelo mesmo caminho do sistema (fromStatusEffect).
+	// As condições extras deste módulo continuam usando a definição própria.
+	const nativoV14 = game.release?.generation >= 14 && !!CONFIG.statusEffects?.[condKey]?.uuid;
+	const base = nativoV14
+		? (await ActiveEffect.fromStatusEffect(condKey))?.toObject()
+		: foundry.utils.deepClone(todasCondicoes()[condKey]);
 	if (!base) {
 		ui.notifications.error(`Condição "${condKey}" não encontrada.`);
 		return;
@@ -223,11 +229,13 @@ async function aplicarCondicao(actor, { condKey, duracaoTipo, rounds, dano }) {
 
 	const roundsFixas = ehRodadas ? await rolarRodadas(rounds, actor, base.name) : 0;
 
-	const changes = Array.isArray(base.changes) ? [...base.changes] : [];
+	const changes = nativoV14
+		? [...(base.system?.changes ?? [])]
+		: Array.isArray(base.changes) ? [...base.changes] : [];
 	if (dano) {
 		// Chave própria, para não colidir com o processamento nativo de "dano"
-		// (module/combat.mjs), que só rola e posta no chat sem aplicar de fato.
-		changes.push({ key: "t20acDano", mode: 0, value: dano });
+		// (v13) / "danoContinuo" (v14), que só rolam e postam no chat sem aplicar de fato.
+		changes.push(nativoV14 ? { key: "t20acDano", type: "custom", value: dano } : { key: "t20acDano", mode: 0, value: dano });
 	}
 
 	let nomeExibicao = base.name;
@@ -244,7 +252,7 @@ async function aplicarCondicao(actor, { condKey, duracaoTipo, rounds, dano }) {
 	// -> botão "Terminar Cena" no rodapé do combate), que já remove sozinho
 	// todo efeito com durationScene=true de todos os personagens. Não
 	// rastreamos rodadas nesse modo.
-	const duration = ehRodadas
+	const duration = ehRodadas && !nativoV14
 		? {
 				rounds: roundsFixas,
 				startRound: game.combat?.round ?? null,
@@ -261,7 +269,7 @@ async function aplicarCondicao(actor, { condKey, duracaoTipo, rounds, dano }) {
 		base,
 		{
 			name: nomeExibicao,
-			changes,
+			...(nativoV14 ? { system: { changes } } : { changes }),
 			duration,
 			flags: {
 				tormenta20: flagsTormenta,
@@ -553,11 +561,9 @@ Hooks.on("updateCombat", async (combat, changed) => {
 				name: `${nomeBase} (${rounds} rodada(s))`,
 				[`flags.${MOD_ID}.roundsLeft`]: rounds,
 				[`flags.${MOD_ID}.ultimoProcessado`]: turnoChave,
-				duration: {
-					rounds,
-					startRound: combat.round,
-					startTurn: combat.turn
-				}
+				...(game.release?.generation >= 14
+					? {}
+					: { duration: { rounds, startRound: combat.round, startTurn: combat.turn } })
 			});
 			ChatMessage.create({
 				content: `<b>${actor.name}</b> continua <b>${nomeBase}</b> — ${rounds} rodada(s) restante(s).`

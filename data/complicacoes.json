@@ -1617,7 +1617,7 @@
   "folder": null,
   "system": {
    "description": {
-    "value": "<p style=\"text-align:justify\">Em cenas de ação, role 1d6 no início de cada rodada. Num resultado 1, você tem uma crise de tosse e fica atordoado por 1 rodada. Em cenas de interpretação, role 1d6 sempre que fizer um teste de perícia baseada em Carisma. Num resultado 1, você tem uma crise de tosse e sofre uma penalidade de –5 nesse teste.</p><hr><p><em>Automação (módulo): nenhuma — rolagens de crise de tosse (por conta da mesa).</em></p>",
+    "value": "<p style=\"text-align:justify\">Em cenas de ação, role 1d6 no início de cada rodada. Num resultado 1, você tem uma crise de tosse e fica atordoado por 1 rodada. Em cenas de interpretação, role 1d6 sempre que fizer um teste de perícia baseada em Carisma. Num resultado 1, você tem uma crise de tosse e sofre uma penalidade de –5 nesse teste.</p><hr><p><em>Automação (módulo): a rolagem do 1d6 é na mesa. Em cena de interpretação, se der 1, use o efeito desativado “Crise de tosse” na opção de uso do teste de Carisma para somar –5 (modelo do poder Convencido do sistema).</em></p>",
     "unidentified": ""
    },
    "source": "T20 - Herois de Arton (pág. 291) — Complicação de idade",
@@ -1656,7 +1656,67 @@
    "chatGif": "",
    "automationtags": []
   },
-  "effects": [],
+  "effects": [
+   {
+    "_id": "BFlgw3fBAQ9mb0rK",
+    "name": "Crise de tosse (–5 no teste)",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.2LglBCrYIyg9fVTQ",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": true,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": true,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": true,
+    "changes": [
+     {
+      "key": "roll",
+      "mode": 2,
+      "value": "-5",
+      "priority": 0
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
   "flags": {},
   "sort": 0,
   "ownership": {
@@ -2257,7 +2317,7 @@
   "folder": null,
   "system": {
    "description": {
-    "value": "<p style=\"text-align:justify\">Você é chato para comer. Não se beneficia de itens da categoria alimentação, nem de poções. Além disso, sofre –2 em testes de perícias baseadas em Carisma durante situações sociais baseadas em refeições, como um banquete no palácio ou uma noite na taverna.</p><hr><p><em>Automação (módulo): nenhuma — depende de itens de alimentação, poções e situações sociais com refeição (por conta da mesa).</em></p>",
+    "value": "<p style=\"text-align:justify\">Você é chato para comer. Não se beneficia de itens da categoria alimentação, nem de poções. Além disso, sofre –2 em testes de perícias baseadas em Carisma durante situações sociais baseadas em refeições, como um banquete no palácio ou uma noite na taverna.</p><hr><p><em>Automação (módulo): a restrição a alimentação e poções é na mesa. Em situação social com refeição, use o efeito desativado “Refeição social” na opção de uso do teste de perícia de Carisma para somar –2.</em></p>",
     "unidentified": ""
    },
    "source": "T20 - Herois de Arton (pág. 276)",
@@ -2296,7 +2356,67 @@
    "chatGif": "",
    "automationtags": []
   },
-  "effects": [],
+  "effects": [
+   {
+    "_id": "GAuvC3GX0gQ5N2Pp",
+    "name": "Refeição social (–2 no teste)",
+    "img": "icons/magic/control/voodoo-doll-pain-damage-purple.webp",
+    "type": "base",
+    "system": {},
+    "origin": "Compendium.classes-extras-t20.complicacoes.Item.HcvKsxLkLjtoh7nh",
+    "tint": "#ffffff",
+    "flags": {
+     "tormenta20": {
+      "onuse": true,
+      "durationScene": false,
+      "self": false,
+      "attack": false,
+      "skill": true,
+      "ability": false,
+      "power": false,
+      "equipment": false,
+      "spell": false,
+      "consumable": false,
+      "items": "",
+      "aumenta": false,
+      "custo": ""
+     }
+    },
+    "duration": {
+     "startTime": null,
+     "combat": null,
+     "seconds": null,
+     "rounds": null,
+     "turns": null,
+     "startRound": null,
+     "startTurn": null
+    },
+    "disabled": true,
+    "changes": [
+     {
+      "key": "roll",
+      "mode": 2,
+      "value": "-2",
+      "priority": 0
+     }
+    ],
+    "description": "",
+    "transfer": true,
+    "statuses": [],
+    "sort": 0,
+    "_stats": {
+     "coreVersion": "13.344",
+     "systemId": null,
+     "systemVersion": null,
+     "createdTime": null,
+     "modifiedTime": null,
+     "lastModifiedBy": null,
+     "compendiumSource": null,
+     "duplicateSource": null,
+     "exportSource": null
+    }
+   }
+  ],
   "flags": {},
   "sort": 0,
   "ownership": {

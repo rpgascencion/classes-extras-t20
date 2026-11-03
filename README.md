@@ -112,3 +112,7 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.13.2
 - Capanga: mais automações, seguindo o padrão de poderes parecidos do sistema (efeitos desativados que você liga quando valem): **Rápido e Rasteiro** (pares +2/+4/+6 de Defesa/Iniciativa e de dano), **Cara Feia** (+5 em teste, como Convencido), **Flanquear Aprimorado** (+2 de ataque adicional, como Valentão) e **Debulhar Inimigos** (5 PM + dano do ataque furtivo sem condição).
+
+## v0.13.3
+- Complicações: **Tosse** (–5 em teste de Carisma) e **Paladar Infantil** (–2 em teste social de refeição) ganharam efeito desativado de uso, no modelo do poder Convencido do sistema.
+- v14: ao aplicar uma condição do sistema pelo botão do chat, o efeito agora vem completo do compêndio de condições (ícone, status e mudanças), pelo mesmo caminho do sistema; antes saía só com nome e ícone.
