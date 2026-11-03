@@ -116,3 +116,6 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 ## v0.13.3
 - Complicações: **Tosse** (–5 em teste de Carisma) e **Paladar Infantil** (–2 em teste social de refeição) ganharam efeito desativado de uso, no modelo do poder Convencido do sistema.
 - v14: ao aplicar uma condição do sistema pelo botão do chat, o efeito agora vem completo do compêndio de condições (ícone, status e mudanças), pelo mesmo caminho do sistema; antes saía só com nome e ícone.
+
+## v0.13.4
+- Se o módulo Condições Automáticas (T20) estiver ativo, o botão de condição e o processamento de turno deste módulo ficam desligados (evita botão e avisos em duplicidade). As condições extras continuam sendo registradas e aparecem na janela do Condições Automáticas.

@@ -422,6 +422,8 @@ function abrirDialogoCondicao(nomeItemOrigem) {
 /* -------------------------------------------- */
 
 Hooks.on("renderChatMessageHTML", (app, html) => {
+	// Se o módulo Condições Automáticas (T20) está ativo, ele cuida do botão e do turno (evita botões e avisos duplicados)
+	if (game.modules.get("condicoes-automaticas-t20")?.active) return;
 	// Espera o próximo tick: garante que os botões nativos do sistema
 	// (Aplicar Dano / 2x / ½ / Cura, e o botão de custo de mana no
 	// cabeçalho) já tenham sido inseridos no DOM antes da gente mexer,
@@ -495,6 +497,7 @@ Hooks.on("renderChatMessageHTML", (app, html) => {
 /* -------------------------------------------- */
 
 Hooks.on("updateCombat", async (combat, changed) => {
+	if (game.modules.get("condicoes-automaticas-t20")?.active) return;
 	const updateTurn = (combat.round > 0 && "turn" in changed) || "round" in changed;
 	if (!updateTurn) return;
 
