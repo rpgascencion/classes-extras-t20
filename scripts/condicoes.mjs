@@ -38,19 +38,41 @@ const todasCondicoes = () => {
 };
 
 /* Registra as condições extras no HUD de status dos tokens. */
-Hooks.once("init", () => {
+const MODOS_V14 = { 0: "custom", 1: "multiply", 2: "add", 3: "downgrade", 4: "upgrade", 5: "override" };
+
+/** Converte uma condição extra (formato v13) para uma entrada de CONFIG.statusEffects da v14. */
+function entradaV14(c) {
+	const src = {
+		name: c.name,
+		img: c.img ?? c.icon,
+		statuses: [c.id],
+		description: c.description ?? "",
+		system: { changes: (c.changes ?? []).map((x) => ({ key: x.key, value: String(x.value), type: MODOS_V14[x.mode] ?? "add", phase: "initial", priority: null })) },
+		duration: { value: null, units: "rounds", expiry: "sceneEnd" },
+		flags: { tormenta20: { ...(c.flags?.tormenta20 ?? {}), condition: true, extra: true } }
+	};
+	return { id: c.id, category: "extra", ...src, _source: foundry.utils.deepClone(src) };
+}
+
+function registrarExtras() {
 	const se = CONFIG.statusEffects;
-	if (Array.isArray(se)) {
-		const ids = new Set(se.map((e) => e.id));
-		for (const c of CONDICOES_EXTRAS) if (!ids.has(c.id)) se.push(foundry.utils.deepClone(c));
-	} else if (se && typeof se === "object") {
-		// Foundry v14 / T20 1.6+: statusEffects é um objeto indexado por id
-		// e pula as que o sistema já traz nativamente (mesmo nome)
-		const norm = (t) => String(t ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
-		const nativos = new Set(Object.values(se).map((e) => norm(game.i18n?.localize?.(e.name) ?? e.name)));
-		for (const c of CONDICOES_EXTRAS) if (!se[c.id] && !nativos.has(norm(game.i18n?.localize?.(c.name) ?? c.name))) se[c.id] = foundry.utils.deepClone(c);
+	const v14 = game.release?.generation >= 14;
+	const norm = (t) => String(t ?? "").normalize("NFD").replace(/[\u0300-\u036f]/g, "").trim().toLowerCase();
+	const lista = Array.isArray(se) ? se : Object.values(se ?? {});
+	const ids = new Set(lista.map((e) => e.id));
+	const nomes = new Set(lista.map((e) => norm(game.i18n?.localize?.(e.name) ?? e.name)));
+	for (const c of CONDICOES_EXTRAS) {
+		if (ids.has(c.id)) continue;
+		if (v14 && nomes.has(norm(game.i18n?.localize?.(c.name) ?? c.name))) continue; // já existe nativa
+		const entrada = v14 ? entradaV14(c) : foundry.utils.deepClone(c);
+		if (Array.isArray(se)) se.push(entrada);
+		else if (se && typeof se === "object") se[c.id] = entrada;
 	}
-});
+}
+
+Hooks.once("init", registrarExtras);
+// v14 / T20 1.6+: o sistema reconstrói CONFIG.statusEffects depois do init; registra de novo (só adiciona o que faltar)
+Hooks.once("ready", () => { if (game.release?.generation >= 14) registrarExtras(); });
 
 /* -------------------------------------------- */
 /*  Tabela de sugestões (magias/poderes -> condição)
@@ -212,7 +234,7 @@ async function aplicarCondicao(actor, { condKey, duracaoTipo, rounds, dano }) {
 	// v14 (T20 1.6): as condições do sistema em CONFIG.statusEffects são só um resumo;
 	// o efeito completo vem do compêndio, pelo mesmo caminho do sistema (fromStatusEffect).
 	// As condições extras deste módulo continuam usando a definição própria.
-	const nativoV14 = game.release?.generation >= 14 && !!CONFIG.statusEffects?.[condKey]?.uuid;
+	const nativoV14 = game.release?.generation >= 14 && !!(CONFIG.statusEffects?.[condKey]?.uuid || CONFIG.statusEffects?.[condKey]?._source);
 	const base = nativoV14
 		? (await ActiveEffect.fromStatusEffect(condKey))?.toObject()
 		: foundry.utils.deepClone(todasCondicoes()[condKey]);
