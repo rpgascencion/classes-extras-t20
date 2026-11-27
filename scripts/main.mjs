@@ -9,7 +9,7 @@ import { ligarEnricherStatus } from "./enricher-status.mjs";
  * JSON em /data. Se o compêndio já tem conteúdo, nada é feito.
  */
 const MODULE_ID = "classes-extras-t20";
-const PACKS = ["classes"];
+const PACKS = ["classes", "distincoes", "itens"];
 
 /* Melhorias de itens superiores: registra no sistema antes de qualquer ficha de item ser aberta */
 Hooks.once("setup", () => { try { registrarMelhorias(); } catch (e) { console.warn("classes-extras-t20 | registrarMelhorias falhou", e); } });

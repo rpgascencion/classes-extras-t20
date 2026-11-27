@@ -123,3 +123,17 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
 
 ## v0.13.4
 - Se o módulo Condições Automáticas (T20) estiver ativo, o botão de condição e o processamento de turno deste módulo ficam desligados (evita botão e avisos em duplicidade). As condições extras continuam sendo registradas e aparecem na janela do Condições Automáticas.
+
+## v0.14.0: Ancestral Ubani (Dragão Brasil #233)
+- **Místico** (DB #233, p. 22–32) no compêndio **Classes Extras**: classe completa (16 + 4 PV/nível, 4 PM/nível, Sabedoria), 10 habilidades de classe (marcadas com classe e nível para o importador de fichas), 33 poderes de místico, 13 Ditames e as 18 ordens dos 6 Guias Elementais.
+  - **Automático**: conjuração e PM com Sabedoria (`Magias`), RD escalável por círculo para os 6 elementos (`Afinidade Elemental`), `+1d6[elemento]/PM` e bônus de ataque `+2×círculo` (`Combate Elemental`), Defesa + Sabedoria limitada pelo nível (`Sexto Sentido`), `+2 CD` e `+1d` de dano (`Afinidade Concentrada`), imunidades elementais (`Comunhão Suprema`), deslocamentos (`Andar pelas Paredes`, `Empuxo`, `Escavadeira`, `Propulsão`), sentidos (`Visão Noturna`), `Elemento Penetrante` (ignora RD), `Elemento Poderoso` (+CD/PM), `Flagelo Elemental` (`danoMultiplicavel` e `+1` multiplicador), `Supernova` (+1d12 fogo), `Perícia Mística` (`+1 + @patamar`), `Resistência Tenebrosa`, `Armadura Rochosa`, `Auréola Celeste`, `Oito Nuvens`, `Escudo Elemental`, `Hidratação`, `Tradição Oral` e todas as rolagens/CDs/efeitos das 18 ordens dos Guias Elementais.
+- Novo compêndio **Classes Extras – Distinções** (`distincoes`, DB #233, p. 34–43) com `rolltags` automáticas (`@GemeoDoTrovao`, `@RetalhadorPanzajiri`, `@SenhorDasChamas`):
+  - **Gêmeo do Trovão**: *Comunhão Elétrica (Marca)* (RD eletricidade `10 + 5×poderes`, vulnerabilidade a ácido, troca de atributo de CD) + *Dínamo Vivo*, *Atração e Repulsão*, *Escudo Cintilante*, *Salto Trovejante* e *Super Choque*.
+  - **Retalhador Panzajiri**: *Instinto Assassino (Marca)* (+2 Furtividade e +2 dano corte corpo a corpo, escalando a cada 2 poderes) + *Talho Tenebroso* (`danoMultiplicavel` trevas 1d8/1d10/1d12), *Ardil da Lâmina*, *Cortar Almas*, *Mortalha Afiada* e *Passo Instantâneo* (+3m deslocamento, +2 Acrobacia).
+  - **Senhor das Chamas**: *Abraço da Chama (Marca)* (RD fogo `10 + 5×poderes`, vulnerabilidade a frio, troca de atributo de CD) + *Labaredas* (encanto flamejante escalável, Bola de Fogo CD Con + passos, rajada de fogo), *Contos nas Cinzas* (–1 PM), *Em Chamas* (voo + aura), *Moldar Fogo* (–1 PM) e *Obliterar* (+1d/PM e ignorar RD/imunidade).
+- Novo compêndio **Classes Extras – Itens e Magias** (`itens`, DB #233, p. 17, 21, 33):
+  - **Zipana** (arma marcial leve, T$ 500, 1d4 corte, 19/x2): efeitos de uso e de cena para **Borir Zipana** (1 PM → 1d8 do elemento escolhido entre os 6 elementos).
+  - **Controlar Ar** (magia divina 2, Transmutação): aprimoramento +2 PM e efeito *Ascender* (–2 em ataques).
+  - **Qareen Ubaneri** (raça variante) + as 6 **Linhagens Kipane** automatizadas.
+- Compatível com **Foundry v13 (T20 1.5)** e **Foundry v14 (T20 1.6)** via `compat-v14.mjs`.
+

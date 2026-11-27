@@ -1,0 +1,2384 @@
+{
+ "folders": [
+  {
+   "_id": "pXITdiKrId8AKd2S",
+   "name": "Armas",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 100000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "BSU0vpN8dLQqRCT6",
+   "name": "Magias",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 200000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "NICJ1klCDDiOvo6k",
+   "name": "Raça Variante — Qareen Ubaneri",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 300000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "aVxybIoiTatPVjnY",
+   "name": "Zipana",
+   "type": "arma",
+   "img": "modules/classes-extras-t20/icons/zipana.webp",
+   "effects": [
+    {
+     "_id": "JdokUThkNyvMwrhX",
+     "name": "Borir Zipana — Água (1 PM: 1d8 frio)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "frio",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "jEAVXcAT3sR6eAbN",
+     "name": "Borir Zipana — Ar (1 PM: 1d8 eletricidade)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "eletricidade",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "ynMbcBbLxPmY22t2",
+     "name": "Borir Zipana — Fogo (1 PM: 1d8 fogo)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "fogo",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "nWp7qrf5TiX3ldw4",
+     "name": "Borir Zipana — Luz (1 PM: 1d8 luz)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "luz",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 30,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "IwrB8uPiA9WfYdIb",
+     "name": "Borir Zipana — Terra (1 PM: 1d8 acido)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "acido",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 40,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "qIkJdgeHyRDfrsSu",
+     "name": "Borir Zipana — Trevas (1 PM: 1d8 trevas)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "trevas",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 50,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "eSaVBDf7I5O8pcRo",
+     "name": "Zipana Borida — Água (cena: 1d8 frio, sem custo extra)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "frio",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 60,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "bGi82rveSsDLxodS",
+     "name": "Zipana Borida — Ar (cena: 1d8 eletricidade, sem custo extra)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "eletricidade",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 70,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "8CjclKVpoQrDLbVv",
+     "name": "Zipana Borida — Fogo (cena: 1d8 fogo, sem custo extra)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "fogo",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 80,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "foDfUCTO8eZFT0Qi",
+     "name": "Zipana Borida — Luz (cena: 1d8 luz, sem custo extra)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "luz",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 90,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "1Y4HeGzXDStqheqt",
+     "name": "Zipana Borida — Terra (cena: 1d8 acido, sem custo extra)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "acido",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 100,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "LX7VwL65iLf3fIaN",
+     "name": "Zipana Borida — Trevas (cena: 1d8 trevas, sem custo extra)",
+     "img": "modules/classes-extras-t20/icons/zipana.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.aVxybIoiTatPVjnY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": true,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "trevas",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 110,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "pXITdiKrId8AKd2S",
+   "sort": 100,
+   "flags": {
+    "classes-extras-t20": {
+     "semMaterialEspecial": true
+    }
+   },
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Estas estilhas de cristal são as armas mais prestigiadas em toda Ubani, usadas como adagas cerimoniais e adornos em vestimentas. Zipanas têm cabo em formato de X, feito de osso de dracofera e ornamentado com joias, e lâmina reta de cristal alquímico translúcido e afiado.</p>\n<p><strong>Borir Zipana:</strong> se for capaz de lançar magias arcanas e tiver redução de ácido, eletricidade, fogo, frio, luz ou trevas (inclusive por fontes temporárias como magias), você pode gastar 1 PM para borir uma zipana. Até o final da cena, a arma causa <strong>1d8 pontos de dano do elemento</strong> ao qual você tem redução, em vez do seu dano normal (1d4 corte).</p>\n<p>Um personagem deve ser treinado em Ofício (alquimia) para fabricar uma zipana. <strong>Esta arma não pode receber a melhoria material especial.</strong></p>\n<p><em>Automação: use o efeito de uso \"Borir Zipana\" do seu elemento ao atacar (1 PM, ou marque o efeito correspondente na aba Efeitos da arma para mantê-la borida pela cena inteira sem gastar 1 PM a cada ataque).</em></p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 21",
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "carregado": true,
+    "peso": 0.5,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 500,
+    "pv": {
+     "value": 2,
+     "max": 2
+    },
+    "rd": 5,
+    "ativacao": {
+     "execucao": "action",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": 0,
+     "mpMultiplier": false
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d4",
+        "corte",
+        ""
+       ],
+       [
+        "@for",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "tipoUso": "mar",
+    "proficiencia": "marcial",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "leve",
+    "criticoM": 19,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": false,
+     "alo": false,
+     "arr": false,
+     "des": false,
+     "dst": false,
+     "dup": false,
+     "hib": false,
+     "mun": false,
+     "ver": false,
+     "adaptavel": false,
+     "agil": false,
+     "alongada": false,
+     "arremesso": false,
+     "ataqueDistancia": false,
+     "duasMaos": false,
+     "dupla": false,
+     "leve": true,
+     "municao": false,
+     "versatil": false
+    },
+    "size": "normal",
+    "origin": "",
+    "tags": [
+     "Ubani",
+     "Marcial",
+     "Leve"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "16fhunazciwWvm9a",
+   "name": "Controlar Ar",
+   "type": "magia",
+   "img": "systems/tormenta20/icons/magias/controlar-clima.webp",
+   "effects": [
+    {
+     "_id": "CXpcHBkNGn7t0xwT",
+     "name": "+2 PM: aumenta o limite de tamanho afetado em um passo",
+     "img": "systems/tormenta20/icons/magias/controlar-clima.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.16fhunazciwWvm9a",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": "2"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "Aumenta o limite de tamanho de criaturas e objetos afetados em um passo.",
+     "transfer": false,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "Ilpb5TNySf4eEkg5",
+     "name": "Controlar Ar — Ascender (vulnerável, –2 em ataques)",
+     "img": "systems/tormenta20/icons/magias/controlar-clima.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.16fhunazciwWvm9a",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.modificadores.ataque.geral",
+       "mode": 2,
+       "value": "-2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "BSU0vpN8dLQqRCT6",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode controlar os movimentos e comportamentos de massas de ar. Ao lançar a magia, escolha um dos efeitos abaixo.</p>\n<ul>\n<li><strong>Ascender:</strong> cria uma corrente de ar ascendente capaz de erguer do chão uma criatura ou objeto Médio, fazendo o alvo flutuar para cima e para baixo conforme sua vontade. Você pode gastar uma ação de movimento para subir ou descer o alvo até 6m por rodada, até um máximo de 30m de altura. Você não pode mover o alvo horizontalmente — mas o alvo pode escalar uma colina ou se apoiar no teto para mover-se lateralmente (metade do deslocamento normal). Uma criatura levitando fica @STATUS[vulneravel]{vulnerável} e sofre –2 em testes de ataque. Alvos involuntários têm direito a um teste de Fortitude no início de seu turno para evitar o efeito. Derrubar um alvo flutuando causa o dano normal de queda, mas um alvo que passe no teste pode “nadar” para o chão contra a corrente. Você pode usar essa opção para fazer uma manobra derrubar contra uma criatura voadora dentro do alcance, usando seu atributo-chave de magias no lugar de Força.</li>\n<li><strong>Sopro:</strong> cria uma lufada de vento a partir de suas mãos, que empurra qualquer criatura Média ou menor em um cone de 4,5m — faça uma manobra empurrar usando seu atributo-chave em vez de Força, usando o mesmo resultado para todos os alvos. Também levanta pó, dispersa vapores, apaga chamas, espalha papéis ou move embarcações. Manter o sopro ativo exige uma ação padrão.</li>\n<li><strong>Vento:</strong> cria uma área de vento forte (<em>Tormenta20 Jogo do Ano</em>, p. 267) dentro do alcance da magia. Se lançada numa área que já esteja com algum efeito de vento, aumenta esse efeito em um passo. Manter o vento ativo requer uma ação de movimento. Também pode reduzir os efeitos de vento em uma área.</li>\n</ul>\n<p><strong>+2 PM:</strong> aumenta o limite de tamanho de criaturas e objetos afetados em um passo.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 33",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 3,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": 0,
+     "width": 0,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": 0,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": 0,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "",
+    "area": "veja texto",
+    "resistencia": {
+     "pericia": "fort",
+     "atributo": "sab",
+     "bonus": 0,
+     "txt": "veja texto"
+    },
+    "rolls": [],
+    "tipo": "div",
+    "circulo": "2",
+    "preparada": false,
+    "escola": "tra",
+    "origin": "",
+    "tags": [
+     "Ubani"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "equipado2": {
+     "slot": 0,
+     "type": ""
+    }
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "c79HSrmvDAriJuam",
+   "name": "Qareen Ubaneri (Variante)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Por influência de Kallyadranoch, a linhagem das kipane é uma variante da raça qareen. Para criar um personagem qareen ubaneri, use as habilidades de qareen (<em>Resistência Elemental</em> e <em>Tatuagem Mística</em>), mas substitua os modificadores de atributos e a habilidade <em>Desejos</em> pelos seguintes:</p>\n<ul>\n<li><strong>Atributos:</strong> Sabedoria +1, +1 em dois outros atributos à sua escolha.</li>\n<li><strong>Linhagem Kipane:</strong> escolha a linhagem elemental correspondente na pasta <em>Raça Variante — Qareen Ubaneri</em>.</li>\n</ul>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "N6zZoVoth6ntI02c",
+   "name": "Linhagem Kipane (Água)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [
+    {
+     "_id": "HExuZyMhT1J1aZwO",
+     "name": "Linhagem Kipane (Água: +2 Acrobacia)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.N6zZoVoth6ntI02c",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.acro.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como sua ancestral que driblou o kraken Kivulisi, você tem movimentos fluidos e ágeis. Recebe +2 em Acrobacia e, uma vez por rodada, pode gastar 1 PM para se mover 6m como uma ação livre.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri",
+     "Água"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "drmqrlibTsuCvkwk",
+   "name": "Linhagem Kipane (Ar)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [
+    {
+     "_id": "X5BCQWbMCK53JHir",
+     "name": "Linhagem Kipane (Ar: +2 Percepção)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.drmqrlibTsuCvkwk",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.perc.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "zQISZFvSEdVpK6U1",
+     "name": "Linhagem Kipane (Ar: +5 concentração)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.drmqrlibTsuCvkwk",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": true,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Misticismo; Vontade",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "roll",
+       "mode": 2,
+       "value": "5",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como sua ancestral que perseguiu o roca Mirandege, você tem sentidos aguçados e paciência considerável. Recebe +2 em Percepção, +2 em testes em que escolhe 10 e +5 em testes para manter a concentração em magias.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri",
+     "Ar"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "WbDqKBpJ19AbQ1kY",
+   "name": "Linhagem Kipane (Fogo)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [
+    {
+     "_id": "liWZNs1yL5xYqcjD",
+     "name": "Linhagem Kipane (Fogo: +2 Diplomacia)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.WbDqKBpJ19AbQ1kY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.dipl.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "nKN9qhMXxUfxxfff",
+     "name": "Linhagem Kipane (Fogo: +1 por dado de dano psíquico)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.WbDqKBpJ19AbQ1kY",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d*1",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como sua ancestral que fez a salamandra Ejotó rir, você tem senso de humor afiado. Recebe +2 em Diplomacia e causa 1 ponto de dano adicional para cada dado de dano psíquico.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri",
+     "Fogo"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "qXPuutle4b1sJY9W",
+   "name": "Linhagem Kipane (Luz)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [
+    {
+     "_id": "ftpkFXzXnqZ61KH2",
+     "name": "Linhagem Kipane (Luz: +2 Cavalgar)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.qXPuutle4b1sJY9W",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.cava.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 500,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como sua ancestral que fez companhia ao unicórnio Darandaran, você trabalha bem em equipe. Recebe +2 em Cavalgar e aumenta o bônus de parceiro em 1 (escolha um bônus caso o parceiro conceda mais de um).</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri",
+     "Luz"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "DOL19YsIDOGqVh7i",
+   "name": "Linhagem Kipane (Terra)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [
+    {
+     "_id": "ekWRJvwxSjoncHep",
+     "name": "Linhagem Kipane (Terra: +2 Atletismo)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.DOL19YsIDOGqVh7i",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.atle.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "MOUMLHhTAW6FHqzf",
+     "name": "Linhagem Kipane (Terra: +2 manobras de combate)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.DOL19YsIDOGqVh7i",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ataque",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 600,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como sua ancestral que superou o bulette Ardile em força bruta, você tem um físico robusto. Recebe +2 em Atletismo e manobras de combate.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri",
+     "Terra"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "61HYT4ypMfgZu0Zh",
+   "name": "Linhagem Kipane (Trevas)",
+   "type": "poder",
+   "img": "systems/tormenta20/icons/racas/qareen.webp",
+   "effects": [
+    {
+     "_id": "UNIHTyys9ZNj5Dro",
+     "name": "Linhagem Kipane (Trevas: +2 Furtividade)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.61HYT4ypMfgZu0Zh",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.furt.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "ZdGhftiycNWIR84n",
+     "name": "Linhagem Kipane (Trevas: +2 resistência contra venenos)",
+     "img": "systems/tormenta20/icons/racas/qareen.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.61HYT4ypMfgZu0Zh",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": true,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Fortitude",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "roll",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "NICJ1klCDDiOvo6k",
+   "sort": 700,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Como sua ancestral que emboscou o basilisco Ojumajele, você é esquivo. Recebe +2 em Furtividade e testes de resistência contra venenos.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Qareen Ubaneri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Qareen Ubaneri",
+     "Trevas"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  }
+ ]
+}
