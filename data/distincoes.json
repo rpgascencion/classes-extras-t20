@@ -1,0 +1,4131 @@
+{
+ "folders": [
+  {
+   "_id": "z6czgObf3gn14HB2",
+   "name": "Gêmeo do Trovão",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 100000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "w3PNV3k5RKTyF0kV",
+   "name": "Retalhador Panzajiri",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 200000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "zp5FiqaAbeAkvv5P",
+   "name": "Senhor das Chamas",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 300000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  }
+ ],
+ "items": [
+  {
+   "_id": "CdwmQr78lnN8r3Va",
+   "name": "Comunhão Elétrica (Marca)",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+   "effects": [
+    {
+     "_id": "dLBhexokHLsPIlOd",
+     "name": "Comunhão Elétrica (RD Eletricidade e Vulnerabilidade a Ácido)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.CdwmQr78lnN8r3Va",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.eletricidade.bonus",
+       "mode": 2,
+       "value": "10 + 5 * @GemeoDoTrovao",
+       "priority": null
+      },
+      {
+       "key": "system.tracos.resistencias.acido.vulnerabilidade",
+       "mode": 5,
+       "value": "true",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "dtls7L8IA5ZWjoWI",
+     "name": "Comunhão Elétrica — CD por Int",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.CdwmQr78lnN8r3Va",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "int",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "fg5X4EQv1NAmhCJK",
+     "name": "Comunhão Elétrica — CD por Sab",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.CdwmQr78lnN8r3Va",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "sab",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "bPj4cj8Q8pi3FG7B",
+     "name": "Comunhão Elétrica — CD por Car",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.CdwmQr78lnN8r3Va",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "car",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 30,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "z6czgObf3gn14HB2",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p><strong>Marca da Distinção — Gêmeo do Trovão.</strong> Você tem redução de eletricidade 10, aumentando em 5 para cada poder da distinção obtido. Também recebe vulnerabilidade a ácido. Além disso, você pode alterar a CD dos poderes da distinção para o seu atributo-chave de magias, em vez de Con, caso deseje.</p>\n<hr>\n<p><strong>Admissão:</strong> exige um elo emocional e espiritual verdadeiro e intenso com um espírito elemental constantemente presente (como um alikunhá, familiar, guia elemental ou melhor amigo), demonstrado de forma sincera — muitas vezes marcado por um sacrifício em prol do outro.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 34-37",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Gêmeo do Trovão",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Gêmeo do Trovão"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "lYSNy4IYT8YAXyM6",
+   "name": "Dínamo Vivo",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+   "effects": [
+    {
+     "_id": "GCiH4ATUuxrTOvBL",
+     "name": "Dínamo Vivo — Dano em ataques corpo a corpo (+1 eletricidade/carga)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.lYSNy4IYT8YAXyM6",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1[eletricidade]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "IS8E5xUcouewg67g",
+     "name": "Dínamo Vivo — Carga extra no Raio (+1d6 eletricidade)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.lYSNy4IYT8YAXyM6",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d6[eletricidade]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "iTGxiNxI7B5KMbyu",
+     "name": "Gerar Carga Elétrica (1 PM por carga, ação de movimento)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.lYSNy4IYT8YAXyM6",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "z6czgObf3gn14HB2",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode gastar uma ação de movimento e PM para gerar eletricidade. Cada PM gasto concede uma carga elétrica, que dura até o final da cena. Você não pode ter mais cargas que o seu número de poderes da distinção + sua Constituição.</p>\n<p>Enquanto tiver cargas elétricas, seus ataques corpo a corpo com armas naturais ou armas de metal causam +1 ponto de dano extra de eletricidade para cada carga.</p>\n<p>Você pode gastar cargas como uma ação padrão para disparar raios. Um raio atinge todos os alvos em uma linha de 30m. Cada criatura na área sofre 1d6 pontos de dano de eletricidade por carga gasta e fica @STATUS[ofuscado]{ofuscada} por 1d4 rodadas (Ref CD Con reduz à metade e evita a condição).</p>\n<p><em>Requisitos:</em> treinado em Reflexos e Vontade.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 34-37",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "medium",
+    "alvo": "",
+    "area": "Linha de 30m",
+    "resistencia": {
+     "pericia": "refl",
+     "atributo": "con",
+     "bonus": 0,
+     "txt": "Reflexos parcial"
+    },
+    "rolls": [
+     {
+      "name": "Raio (1 carga; use o efeito de cargas extras)",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "1d6",
+        "eletricidade",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Gêmeo do Trovão",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Gêmeo do Trovão"
+    ],
+    "rolltags": [
+     "GemeoDoTrovao"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "zV9ii2ufSTPn0ytt",
+   "name": "Atração e Repulsão",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+   "effects": [
+    {
+     "_id": "FwJmgljNSNaQ0uqc",
+     "name": "Atração e Repulsão — Carga extra na Onda (+1d6 eletricidade)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.zV9ii2ufSTPn0ytt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d6[eletricidade]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "9HxqkfKnhx4hOWYi",
+     "name": "Atração e Repulsão — Manobra Magnética (1 PM, +Con)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.zV9ii2ufSTPn0ytt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ataque",
+       "mode": 2,
+       "value": "@con",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "IRYgBJ7hibB79Ku6",
+     "name": "Afetar ferro no sangue (+1 PM)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.zV9ii2ufSTPn0ytt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "z6czgObf3gn14HB2",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Enquanto tiver uma carga elétrica, você pode usar uma ação de movimento e 1 PM para escolher um alvo no alcance curto (objeto metálico ou criatura portando/composta de metal). Objetos soltos podem ser deslocados como se manipulados com Força igual à sua Constituição + número de poderes da distinção. Para outros alvos, faça uma manobra de combate recebendo um bônus igual à sua Constituição (ou atributo-chave de magias). Em manobras como desarmar ou empurrar, decide se o alvo move na sua direção ou na contrária. Você pode gastar +1 PM para afetar humanoides e criaturas com ferro no sangue.</p>\n<p>Se usar uma ação padrão e gastar pelo menos uma carga elétrica, pode emitir uma <strong>onda eletromagnética</strong>: todas as criaturas e objetos em alcance curto sofrem 1d6 pontos de dano de eletricidade e são empurradas 1,5m por carga gasta (Ref CD Con reduz o dano à metade e impede o empurrão).</p>\n<p><em>Requisito:</em> Dínamo Vivo.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 34-37",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "",
+    "area": "Alcance curto",
+    "resistencia": {
+     "pericia": "refl",
+     "atributo": "con",
+     "bonus": 0,
+     "txt": "Reflexos parcial"
+    },
+    "rolls": [
+     {
+      "name": "Onda Eletromagnética (1 carga)",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "1d6",
+        "eletricidade",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Gêmeo do Trovão",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Gêmeo do Trovão"
+    ],
+    "rolltags": [
+     "GemeoDoTrovao"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "SZzUmosTDH8Ehs6D",
+   "name": "Escudo Cintilante",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+   "effects": [
+    {
+     "_id": "xNpGderLluILxMKR",
+     "name": "Escudo Cintilante (+1 Defesa por carga — ajuste o valor)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.SZzUmosTDH8Ehs6D",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "1",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "z6czgObf3gn14HB2",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando usa Dínamo Vivo, você pode gastar +1 PM para se envolver em um campo de força defensivo. Você soma +1 na Defesa por cada carga que tiver. Além disso, quando um inimigo acerta você, fica @STATUS[ofuscado]{ofuscado} por 1d4 rodadas (Fortitude CD Con evita a condição) e você recebe uma carga elétrica.</p>\n<p>Finalmente, no seu turno, como uma ação livre, você pode gastar cargas para fortalecer seu campo de força. Cada carga gasta concede 5 PV temporários.</p>\n<p><em>Requisito:</em> Dínamo Vivo.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 34-37",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "fort",
+     "atributo": "con",
+     "bonus": 0,
+     "txt": "Fortitude evita"
+    },
+    "rolls": [
+     {
+      "name": "PV Temporários (por carga gasta)",
+      "key": "formula0",
+      "type": "formula",
+      "parts": [
+       [
+        "5",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Gêmeo do Trovão",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Gêmeo do Trovão"
+    ],
+    "rolltags": [
+     "GemeoDoTrovao"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "KcbzhOXF0mWc69C4",
+   "name": "Salto Trovejante",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+   "effects": [
+    {
+     "_id": "GYo7WQAZOKd0QPH2",
+     "name": "Salto Trovejante — +1,5m por carga (ajuste conforme cargas)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.KcbzhOXF0mWc69C4",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.movement.walk",
+       "mode": 2,
+       "value": "1.5",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "ABHagV25lSx4DevZ",
+     "name": "Salto Trovejante — Voo 9m (1 turno)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.KcbzhOXF0mWc69C4",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": 1,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.movement.fly",
+       "mode": 4,
+       "value": "9",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "z6czgObf3gn14HB2",
+   "sort": 500,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Seu deslocamento aumenta em 1,5m por carga elétrica que você tiver. Além disso, você pode gastar 1 PM para voar 9m como uma ação livre. Este movimento deve terminar em uma superfície que possa suportar seu peso.</p>\n<p>Você pode gastar uma carga na decolagem ou na aterrissagem para causar um trovão e deixar @STATUS[atordoado]{atordoadas} todas as criaturas a 1,5m de você (Fortitude CD Con evita a condição; uma criatura só pode ser atordoada por esse efeito uma vez por cena).</p>\n<p><em>Requisito:</em> Atração e Repulsão.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 34-37",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "inst",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "Raio de 1,5m",
+    "resistencia": {
+     "pericia": "fort",
+     "atributo": "con",
+     "bonus": 0,
+     "txt": "Fortitude evita"
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Gêmeo do Trovão",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Gêmeo do Trovão"
+    ],
+    "rolltags": [
+     "GemeoDoTrovao"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "Jyn3ZJjwr3OxYf4S",
+   "name": "Super Choque",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+   "effects": [
+    {
+     "_id": "NIqS3mxT0ELoesGD",
+     "name": "Super Choque — Raio d12 (no Dínamo Vivo)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.Jyn3ZJjwr3OxYf4S",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Dínamo Vivo",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d12",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "Hu2NkQx0dbZsgM5C",
+     "name": "Super Choque — Ignorar RD de eletricidade (+1 PM)",
+     "img": "modules/classes-extras-t20/icons/gemeo-do-trovao.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.Jyn3ZJjwr3OxYf4S",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Dínamo Vivo",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ignoraRD",
+       "mode": 2,
+       "value": "999",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "z6czgObf3gn14HB2",
+   "sort": 600,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando usa Dínamo Vivo para disparar raios, você causa 1d12 pontos de dano de eletricidade por carga gasta e pode gastar +1 PM para ignorar a redução de eletricidade do alvo. Além disso, enquanto tiver cargas de eletricidade, seus acertos críticos corpo a corpo com armas naturais e armas metálicas deixam o alvo @STATUS[atordoado]{atordoado} por uma rodada (apenas uma vez por cena; Fortitude CD Con evita). Finalmente, você pode usar Dínamo Vivo para gerar cargas de eletricidade como uma ação livre, uma vez por rodada.</p>\n<p><em>Requisitos:</em> Escudo Cintilante, Salto Trovejante.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 34-37",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "fort",
+     "atributo": "con",
+     "bonus": 0,
+     "txt": "Fortitude evita"
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Gêmeo do Trovão",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Gêmeo do Trovão"
+    ],
+    "rolltags": [
+     "GemeoDoTrovao"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "GFapasbpcjzFnnCI",
+   "name": "Instinto Assassino (Marca)",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+   "effects": [
+    {
+     "_id": "bvH7UyrUdQTt5XJB",
+     "name": "Instinto Assassino (+Furtividade)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.GFapasbpcjzFnnCI",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.pericias.furt.bonus",
+       "mode": 2,
+       "value": "2 + floor(@RetalhadorPanzajiri / 2)",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "foU11qY3kl36ueAm",
+     "name": "Instinto Assassino (+dano em armas de corte corpo a corpo)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.GFapasbpcjzFnnCI",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "2 + floor(@RetalhadorPanzajiri / 2)",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "w3PNV3k5RKTyF0kV",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p><strong>Marca da Distinção — Retalhador Panzajiri.</strong> Você recebe +2 em Furtividade e no dano de armas de corte corpo a corpo. Esses bônus aumentam em +1 para cada dois poderes da distinção que você possuir.</p>\n<hr>\n<p><strong>Admissão:</strong> o candidato deve ser treinado por alguns meses por um retalhador experiente (como Gizachini Ojumajele, o Tio Giz) e então realizar um ritual de meditação com incensos especiais em transe hipnótico, contemplando a própria mortalidade e a severidade do ato de matar.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 38-40",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Retalhador Panzajiri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Retalhador Panzajiri"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "rmKCXptfJuEaNq76",
+   "name": "Talho Tenebroso",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+   "effects": [
+    {
+     "_id": "qq9wbeK38KPyAKmN",
+     "name": "Talho Tenebroso — 1 poder (+1d8 trevas, multiplica no crítico)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.rmKCXptfJuEaNq76",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "danoMultiplicavel",
+       "mode": 2,
+       "value": "1d8[trevas]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "ogOt4h5dgqylqY2W",
+     "name": "Talho Tenebroso — 2–3 poderes (+1d10 trevas, multiplica no crítico)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.rmKCXptfJuEaNq76",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "danoMultiplicavel",
+       "mode": 2,
+       "value": "1d10[trevas]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "ZEIeMEf2DC9ffUkb",
+     "name": "Talho Tenebroso — 4–5 poderes (+1d12 trevas, multiplica no crítico)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.rmKCXptfJuEaNq76",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "danoMultiplicavel",
+       "mode": 2,
+       "value": "1d12[trevas]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "w3PNV3k5RKTyF0kV",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando faz um ataque com uma arma de corte corpo a corpo, você pode gastar 1 PM para causar +1d8 pontos de dano extra de trevas. Esse dado de dano é multiplicado em acertos críticos e aumenta em um passo para cada dois poderes da distinção que você possuir (1d8 com 1 poder, 1d10 com 2–3 poderes, 1d12 com 4–5 poderes). Além disso, vítimas do seu Talho Tenebroso não podem curar PV por 1 rodada.</p>\n<p><em>Pré-requisitos:</em> proficiente com uma arma de corte corpo a corpo marcial, treinado em Furtividade e Luta.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 38-40",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Retalhador Panzajiri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Retalhador Panzajiri"
+    ],
+    "rolltags": [
+     "RetalhadorPanzajiri"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "DQsDE6HXaP8n5O0b",
+   "name": "Ardil da Lâmina",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+   "effects": [],
+   "folder": "w3PNV3k5RKTyF0kV",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando faz um ataque com uma arma de corte corpo a corpo, se fizer um acerto crítico ou acertar um alvo desprevenido, você recebe camuflagem leve por escuridão contra o alvo. Esse efeito dura até o início do seu próximo turno ou até você fazer um ataque contra outro alvo. <em>Pré-requisito:</em> Talho Tenebroso.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 38-40",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 1,
+     "units": "round",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Retalhador Panzajiri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Retalhador Panzajiri"
+    ],
+    "rolltags": [
+     "RetalhadorPanzajiri"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "WHs6XM56zy4dpgx2",
+   "name": "Cortar Almas",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+   "effects": [
+    {
+     "_id": "FE9fcCDmMd0eUcPR",
+     "name": "Cortar Almas (ignora RD/imunidade de corte e trevas)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.WHs6XM56zy4dpgx2",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ignoraRD",
+       "mode": 2,
+       "value": "999",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "w3PNV3k5RKTyF0kV",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando usa Talho Tenebroso, você ignora redução de dano e imunidade contra corte e trevas, exceto caso o alvo seja imune tanto a corte quanto a trevas. Além disso, quando usa Talho Tenebroso e faz um acerto crítico ou reduz o alvo a 0 PV, você recebe 1 PM temporário para cada poder da distinção. <em>Pré-requisito:</em> Talho Tenebroso.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 38-40",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [
+     {
+      "name": "PM Temporários (crítico ou 0 PV)",
+      "key": "formula0",
+      "type": "formula",
+      "parts": [
+       [
+        "@RetalhadorPanzajiri",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Retalhador Panzajiri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Retalhador Panzajiri"
+    ],
+    "rolltags": [
+     "RetalhadorPanzajiri"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "483Roya1usSuxShc",
+   "name": "Mortalha Afiada",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+   "effects": [
+    {
+     "_id": "3CBzcKRc97DgPp7Y",
+     "name": "Mortalha Afiada — 2–3 poderes (d10)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.483Roya1usSuxShc",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d10",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "yOCuMqFCluqEOJSx",
+     "name": "Mortalha Afiada — 4–5 poderes (d12)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.483Roya1usSuxShc",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d12",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "w3PNV3k5RKTyF0kV",
+   "sort": 500,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando for alvo de um ataque, você pode gastar 1 PM para receber camuflagem leve por escuridão. Se já tinha camuflagem leve, recebe camuflagem total. Se o ataque errar, seu inimigo sofre dano de trevas igual ao seu dano extra de Talho Tenebroso. <em>Pré-requisito:</em> Talho Tenebroso.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 38-40",
+    "ativacao": {
+     "execucao": "reaction",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [
+     {
+      "name": "Contra-ataque (Talho Tenebroso)",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "1d8",
+        "trevas",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Retalhador Panzajiri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Retalhador Panzajiri"
+    ],
+    "rolltags": [
+     "RetalhadorPanzajiri"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "uLT8lTOzoAqYbSUP",
+   "name": "Passo Instantâneo",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+   "effects": [
+    {
+     "_id": "YHCs4UnRE5BUeW8N",
+     "name": "Passo Instantâneo (+3m deslocamento, +2 Acrobacia)",
+     "img": "modules/classes-extras-t20/icons/retalhador-panzajiri.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.uLT8lTOzoAqYbSUP",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.attributes.movement.walk",
+       "mode": 2,
+       "value": "3",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.acro.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "w3PNV3k5RKTyF0kV",
+   "sort": 600,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você recebe +3m de deslocamento e +2 em Acrobacia. Além disso, quando se move mais de seis metros, você pode gastar 1 PM para escolher um inimigo dentro de uma área com 9m de raio. Você pode fintar contra esse inimigo como uma ação livre, usando Furtividade em vez de Enganação. <em>Pré-requisitos:</em> treinado em Acrobacia, Ardil da Lâmina.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 38-40",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Retalhador Panzajiri",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Retalhador Panzajiri"
+    ],
+    "rolltags": [
+     "RetalhadorPanzajiri"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "2qA67czB8vzgYbQt",
+   "name": "Abraço da Chama (Marca)",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+   "effects": [
+    {
+     "_id": "l8mZLJgUx830XPHK",
+     "name": "Abraço da Chama (RD Fogo e Vulnerabilidade a Frio)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.2qA67czB8vzgYbQt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.fogo.bonus",
+       "mode": 2,
+       "value": "10 + 5 * @SenhorDasChamas",
+       "priority": null
+      },
+      {
+       "key": "system.tracos.resistencias.frio.vulnerabilidade",
+       "mode": 5,
+       "value": "true",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "0T662jUPBzaNKBtl",
+     "name": "Abraço da Chama — CD por Int",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.2qA67czB8vzgYbQt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "int",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "uNBjqdn0SBPWEI6G",
+     "name": "Abraço da Chama — CD por Sab",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.2qA67czB8vzgYbQt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "sab",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "098vBW3QGs5oE6dh",
+     "name": "Abraço da Chama — CD por Car",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.2qA67czB8vzgYbQt",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "car",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 30,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "zp5FiqaAbeAkvv5P",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p><strong>Marca da Distinção — Senhor das Chamas.</strong> Você tem redução de fogo 10, aumentando em 5 para cada poder da distinção obtido. Também recebe vulnerabilidade a frio. Além disso, você pode alterar a CD dos poderes da distinção para o seu atributo-chave de magias, em vez de Con, caso deseje.</p>\n<hr>\n<p><strong>Admissão:</strong> exige longos períodos de treinamento em climas infernais (como Halak-Tûr ou regiões vulcânicas), culminando em provações em Pyra, o mundo de Thyatis.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 41-43",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Senhor das Chamas",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Senhor das Chamas"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "HpbGon5raBIblMOB",
+   "name": "Labaredas",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+   "effects": [
+    {
+     "_id": "wPe56H4ztTv8WQTN",
+     "name": "Labaredas — Arma Flamejante (+1d6 fogo, 1–2 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.HpbGon5raBIblMOB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d6[fogo]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "pfXC5YJiJGfXWH3T",
+     "name": "Labaredas — Arma Flamejante (+1d8 fogo, 3–4 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.HpbGon5raBIblMOB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d8[fogo]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "fn4dLsRQbNaDtOey",
+     "name": "Labaredas — Arma Flamejante (+1d10 fogo, 5 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.HpbGon5raBIblMOB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d10[fogo]",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "iOtwWe6K8sZxjBwn",
+     "name": "Labaredas — Bola de Fogo (CD Con + passos do dado de labareda)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.HpbGon5raBIblMOB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "Bola de Fogo",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "con",
+       "priority": null
+      },
+      {
+       "key": "passos",
+       "mode": 0,
+       "value": "@SenhorDasChamas2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 30,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "vAMOf3ZpEhNJF0Zi",
+     "name": "Rajada de Fogo — Dado de Labareda d8 (3–4 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.HpbGon5raBIblMOB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d8",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 40,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "0qPABJeqniKSwM2P",
+     "name": "Rajada de Fogo — Dado de Labareda d10 (5 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.HpbGon5raBIblMOB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d10",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 50,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "zp5FiqaAbeAkvv5P",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode gastar 1 PM para conceder o encanto <em>flamejante</em> às suas armas empunhadas e ataques desarmados até o final da cena. O dado de dano de fogo extra (d6) e cada dado de dano da bola de fogo (ou da magia homônima, se a tiver aprendido) aumentam em um passo para cada dois outros poderes da distinção: esse é o seu <strong>dado de labareda</strong> (d6 com 1–2 poderes, d8 com 3–4 poderes, d10 com 5 poderes).</p>\n<p>Quando usa a bola de fogo do encanto flamejante ou a magia homônima, você pode optar por trocar o atributo da CD do teste de resistência para Con. Além disso, ao fazer a ação agredir, você também pode gastar 1 PM para disparar <strong>rajadas de fogo</strong> (arma à distância de disparo com alcance curto, causando dano igual a dois dados de labareda). Finalmente, enquanto tiver uma arma flamejante, você pode gastar uma ação de movimento para cauterizar ferimentos e remover a condição @STATUS[sangrando]{sangrando} de você ou de outra criatura.</p>\n<p><em>Requisitos:</em> treinado em Fortitude e Sobrevivência.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 41-43",
+    "ativacao": {
+     "execucao": "action",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "short",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [
+     {
+      "name": "Rajada de Fogo (2 dados de labareda)",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "2d6",
+        "fogo",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Senhor das Chamas",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Senhor das Chamas"
+    ],
+    "rolltags": [
+     "SenhorDasChamas"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "Tu5adqqaWj0Ea0Gd",
+   "name": "Contos nas Cinzas",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+   "effects": [
+    {
+     "_id": "QVUScppxNugrgxrg",
+     "name": "Contos nas Cinzas (–1 PM em Augúrio / Lendas e Histórias)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.Tu5adqqaWj0Ea0Gd",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "Augúrio; Lendas e Histórias; Lendas & Histórias",
+       "aumenta": false,
+       "custo": "-1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "zp5FiqaAbeAkvv5P",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você aprende e pode lançar <em>Augúrio</em> como uma magia simulada, usando cinzas para a adivinhação. Se tiver cinco poderes da distinção, você pode tocar as cinzas de uma criatura ou objeto para lançar <em>Lendas e Histórias</em> como uma magia simulada para obter informações sobre a criatura ou objeto queimados. Caso já tenha aprendido essas magias, seus custos diminuem em –1 PM (cumulativo com outros redutores de custo). <em>Requisito:</em> Labaredas.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 41-43",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Senhor das Chamas",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Senhor das Chamas"
+    ],
+    "rolltags": [
+     "SenhorDasChamas"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "pzspmRoZJacrQwky",
+   "name": "Em Chamas",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+   "effects": [
+    {
+     "_id": "KFIcBkwUC2yfEZYQ",
+     "name": "Em Chamas (Voo 9m, cena)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.pzspmRoZJacrQwky",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.attributes.movement.fly",
+       "mode": 4,
+       "value": "9",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "kDP14j8q3FUQjbie",
+     "name": "Aura Em Chamas — Dado de Labareda d8 (3–4 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.pzspmRoZJacrQwky",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d8",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "rdKPS7ZXaDbH5Xxc",
+     "name": "Aura Em Chamas — Dado de Labareda d10 (5 poderes)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.pzspmRoZJacrQwky",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 0,
+       "value": "d10",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "zp5FiqaAbeAkvv5P",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode gastar 2 PM e uma ação de movimento para imolar o próprio corpo. Você fica envolto em chamas, emitindo luz como uma tocha, até o fim da cena. Durante esse período, você recebe deslocamento de voo igual ao seu deslocamento padrão e pode rolar novamente seu dado de labareda se obtiver um resultado 1 ou 2. Além disso, qualquer criatura que comece seu turno a 1,5m de você sofre dano de fogo igual ao seu dado de labareda e fica @STATUS[emchamas]{em chamas} (Reflexos CD Con evita o dano e a condição). <em>Requisito:</em> Labaredas.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 41-43",
+    "ativacao": {
+     "execucao": "move",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "Raio de 1,5m",
+    "resistencia": {
+     "pericia": "refl",
+     "atributo": "con",
+     "bonus": 0,
+     "txt": "Reflexos evita"
+    },
+    "rolls": [
+     {
+      "name": "Aura Em Chamas (dado de labareda)",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "1d6",
+        "fogo",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Senhor das Chamas",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Senhor das Chamas"
+    ],
+    "rolltags": [
+     "SenhorDasChamas"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "ucKcvUFyuHGDUhVP",
+   "name": "Moldar Fogo",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+   "effects": [
+    {
+     "_id": "FN7pYLYfbsfigSzA",
+     "name": "Moldar Fogo (–1 PM em Explosão de Chamas / Bola de Fogo / Muralha Elemental)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.ucKcvUFyuHGDUhVP",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "Explosão de Chamas; Bola de Fogo; Muralha Elemental",
+       "aumenta": false,
+       "custo": "-1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "zp5FiqaAbeAkvv5P",
+   "sort": 500,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode lançar <em>Explosão de Chamas</em> e <em>Bola de Fogo</em> como magias simuladas. Se tiver cinco poderes da distinção, também pode lançar <em>Muralha Elemental</em> (somente fogo) como uma magia simulada. Caso já tenha aprendido essas magias, seus custos diminuem em –1 PM (cumulativo com outros redutores de custo). <em>Requisito:</em> Labaredas.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 41-43",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Senhor das Chamas",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Senhor das Chamas"
+    ],
+    "rolltags": [
+     "SenhorDasChamas"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "uq8odPlZqoesSGrB",
+   "name": "Obliterar",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+   "effects": [
+    {
+     "_id": "mDtCJ67XgeOjXPVK",
+     "name": "Obliterar (+1 PM: +1 dado extra de dano de fogo)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.uq8odPlZqoesSGrB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "I1ZriPGCEXQn6AAR",
+     "name": "Obliterar (+1 PM: ignora RD de fogo)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.uq8odPlZqoesSGrB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ignoraRD",
+       "mode": 2,
+       "value": "999",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "MVYUk4j2AKc9XcbW",
+     "name": "Obliterar (+3 PM: ignora imunidade a fogo)",
+     "img": "modules/classes-extras-t20/icons/senhor-das-chamas.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.uq8odPlZqoesSGrB",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": true,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "3"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "Ignora imunidade a fogo.",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "zp5FiqaAbeAkvv5P",
+   "sort": 600,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Quando causa dano de fogo, você pode gastar PM para aumentar esse dano. Cada PM gasto aumenta o dano em um dado extra do mesmo tipo, limitado pela quantidade de poderes da distinção que possui. Você também pode gastar +1 PM para ignorar redução de fogo e +3 PM para ignorar imunidade a fogo. <em>Requisito:</em> Labaredas.</p>",
+     "unidentified": ""
+    },
+    "source": "Dragão Brasil #233, p. 41-43",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Senhor das Chamas",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Senhor das Chamas"
+    ],
+    "rolltags": [
+     "SenhorDasChamas"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795735000000,
+    "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  }
+ ]
+}
