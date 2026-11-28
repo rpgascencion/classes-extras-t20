@@ -65,6 +65,50 @@
     "exportSource": null,
     "compendiumSource": null
    }
+  },
+  {
+   "_id": "yFNc6rGsgYgmugyp",
+   "name": "Itens Mágicos",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 150000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "vcJLlm1VtUc5QoWI",
+   "name": "Raça — Naidora",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 400000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
   }
  ],
  "items": [
@@ -2374,6 +2418,1581 @@
     "coreVersion": "13.344",
     "createdTime": 1795735000000,
     "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "u0LeU6Ge2I91Ut96",
+   "name": "Espada Enigma",
+   "type": "arma",
+   "img": "modules/classes-extras-t20/icons/espada-enigma.webp",
+   "effects": [
+    {
+     "_id": "qhYTp9ooxU42RO71",
+     "name": "Forma Escudo (+1 Defesa como escudo leve)",
+     "img": "modules/classes-extras-t20/icons/espada-enigma.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.u0LeU6Ge2I91Ut96",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "1",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "Z69gEFxAj8dHXkCh",
+     "name": "Forma Lua (Arremesso em alcance curto — usa Pontaria)",
+     "img": "modules/classes-extras-t20/icons/espada-enigma.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.u0LeU6Ge2I91Ut96",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "pericia",
+       "mode": 5,
+       "value": "pont",
+       "priority": null
+      },
+      {
+       "key": "alcance",
+       "mode": 5,
+       "value": "short",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "ZLNd0BhM5DZ9v5yj",
+     "name": "Forma Pilar — Adaptável duas mãos (1d8 perfuração)",
+     "img": "modules/classes-extras-t20/icons/espada-enigma.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.u0LeU6Ge2I91Ut96",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 5,
+       "value": "1d8",
+       "priority": null
+      },
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "perfuracao",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "pXITdiKrId8AKd2S",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Essa espada segmentada é capaz de assumir várias formas dependendo de como é empunhada. A arma é um verdadeiro quebra-cabeças marcial e exige uma mente tão afiada quanto a lâmina.</p>\n<p>A <strong>espada enigma</strong> é uma arma híbrida, mas mudar de uma forma para a outra é mais complexo: uma <strong>ação padrão</strong> em vez de uma ação de movimento. A mudança pode ser feita como uma ação de movimento com sucesso em um teste de Conhecimento (CD 20). Se tiver <em>Saque Rápido</em>, pode mudar as formas com uma ação de movimento ou uma ação livre com o teste de Conhecimento. Todas as formas são <strong>ágeis</strong> e <strong>desbalanceadas</strong>.</p>\n<ul>\n<li><strong>Serpente:</strong> forma básica da espada enigma; arma ágil e alongada (1d6 corte, 19/x2).</li>\n<li><strong>Escudo:</strong> a lâmina se enrola em formato de círculo, funcionando como um escudo leve (+1 Defesa). Você perde o bônus na Defesa do escudo por uma rodada se atacar com a espada enigma. Mesmo nesta forma, a arma não pode receber melhorias e encantos específicos para escudos.</li>\n<li><strong>Lua:</strong> a lâmina fica na forma de uma letra C. Pode ser arremessada em alcance curto. Se fizer um acerto crítico, ela ricocheteia e volta para a sua mão.</li>\n<li><strong>Pilar:</strong> todos os segmentos ficam travados na forma de uma haste pontiaguda; é uma arma adaptável (1d8 com duas mãos) e alongada.</li>\n</ul>\n<hr>\n<p><strong>Habilidade de arma — Híbrida:</strong> possui dois ou mais modos de uso. Ao usar a arma, você considera apenas as características do modo ativo e aplica apenas habilidades e efeitos que afetem este modo. Aplicar melhorias e encantos em uma arma híbrida custa o <strong>dobro do preço em tibares</strong>.</p>\n<p><em>Automação: na aba Efeitos da arma, ligue \"Forma Escudo\" para o +1 de Defesa; ao rolar ataque, marque \"Forma Lua\" (arremesso/Pontaria) ou \"Forma Pilar\" (duas mãos 1d8 perfuração).</em></p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 23",
+    "equipado": 0,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "carregado": true,
+    "peso": 1,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 750,
+    "pv": {
+     "value": 5,
+     "max": 5
+    },
+    "rd": 10,
+    "ativacao": {
+     "execucao": "action",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": 0,
+     "mpMultiplier": false
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "",
+    "alvo": "",
+    "area": "",
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Ataque",
+      "key": "ataque0",
+      "type": "ataque",
+      "parts": [
+       [
+        "1d20",
+        "",
+        ""
+       ],
+       [
+        "luta",
+        "",
+        ""
+       ],
+       [
+        "",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     },
+     {
+      "name": "Dano",
+      "key": "dano1",
+      "type": "dano",
+      "parts": [
+       [
+        "1d6",
+        "corte",
+        ""
+       ],
+       [
+        "@for",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "1d8",
+      "versatil": ""
+     }
+    ],
+    "ataques": 0,
+    "tipoUso": "exo",
+    "proficiencia": "exotica",
+    "proposito": "corpo-a-corpo",
+    "empunhadura": "uma",
+    "criticoM": 19,
+    "criticoX": 2,
+    "propriedades": {
+     "ada": false,
+     "agi": true,
+     "alo": true,
+     "arr": false,
+     "des": true,
+     "dst": false,
+     "dup": false,
+     "hib": true,
+     "mun": false,
+     "ver": false,
+     "adaptavel": false,
+     "agil": true,
+     "alongada": true,
+     "arremesso": false,
+     "ataqueDistancia": false,
+     "duasMaos": false,
+     "dupla": false,
+     "leve": false,
+     "municao": false,
+     "versatil": false
+    },
+    "size": "normal",
+    "origin": "",
+    "tags": [
+     "Duelo de Dragões",
+     "Exótica",
+     "Híbrida"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "JAdsgOxQkx6nHgTy",
+   "name": "Cetro do Poder Usurpado",
+   "type": "equipamento",
+   "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+   "effects": [
+    {
+     "_id": "8rKTsFxjQh9bSbRQ",
+     "name": "Já possui Raio Arcano (+1 passo no Raio Arcano)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Raio Arcano",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "passos",
+       "mode": 0,
+       "value": "1",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "NIfjEOTdmbnj0Yt5",
+     "name": "Kallyanach (+1 passo adicional no Raio Arcano)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Raio Arcano",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "passos",
+       "mode": 0,
+       "value": "1",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "gQgOOz7fNNbuyfJQ",
+     "name": "Feiticeiro Linhagem Dracônica (+2 CD no Raio Arcano)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Raio Arcano",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "cd",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "QuHBPMaHHyxODCDR",
+     "name": "Devoto de Kallyadranoch — Raio Elemental: Ácido (1 PM)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "acido",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 30,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "3pIbQwdChkttbhX8",
+     "name": "Devoto de Kallyadranoch — Raio Elemental: Eletricidade (1 PM)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "eletricidade",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 40,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "JcPJY8wVjOZRC4ZA",
+     "name": "Devoto de Kallyadranoch — Raio Elemental: Fogo (1 PM)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "fogo",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 50,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "cSGguBFDGGbUuMWN",
+     "name": "Devoto de Kallyadranoch — Raio Elemental: Frio (1 PM)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "tipoDano",
+       "mode": 5,
+       "value": "frio",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 60,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "xaKHjaHyQJRGBTxg",
+     "name": "Devoto de Kallyadranoch — Já possui Raio Elemental (–1 PM)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": true,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Raio Arcano; Raio Elemental",
+       "aumenta": false,
+       "custo": "-1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 70,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "GFIWVcki2sPoyJSd",
+     "name": "CD por Inteligência (atributo-chave)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "int",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 80,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "NIyXbuRuKrnSNgDB",
+     "name": "CD por Sabedoria (atributo-chave)",
+     "img": "modules/classes-extras-t20/icons/cetro-usurpado.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.JAdsgOxQkx6nHgTy",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "atributoCD",
+       "mode": 5,
+       "value": "sab",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 90,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "yFNc6rGsgYgmugyp",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Esse cetro se parece com a pata de um dragão segurando um orbe em sua extremidade. <strong>Acessório menor, T$ 9.000.</strong></p>\n<p>Quando o empunha, você pode usar o poder <strong>Raio Arcano</strong> (ação padrão, alcance curto, 1d8 de dano de essência por círculo de magia [mínimo 1d8], Reflexos CD atributo-chave de magias ou Car reduz à metade); se já possuir <em>Raio Arcano</em>, em vez disso cada dado de dano aumenta em um passo.</p>\n<p>O cetro concede habilidades adicionais conforme sua ligação com dragões:</p>\n<ul>\n<li><strong>Devoto de Kallyadranoch:</strong> pode usar também o poder <em>Raio Elemental</em> (1 PM: muda dano para ácido, eletricidade, fogo ou frio e aplica efeito adicional); se já o possuir, em vez disso seu custo é reduzido a 0 PM.</li>\n<li><strong>Kallyanach:</strong> o dano do seu Raio Arcano aumenta em 1 passo adicional.</li>\n<li><strong>Feiticeiro de Linhagem Dracônica:</strong> a CD para resistir ao seu Raio aumenta em +2.</li>\n</ul>\n<p><em>Automação: você pode rolar o Raio Arcano direto pelo cetro (com efeitos de uso para trocar o atributo da CD, subir passos ou ativar Raio Elemental) — e, se você já tiver o poder Raio Arcano na ficha, ative os efeitos correspondentes na aba Efeitos do cetro.</em></p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 24",
+    "equipado": false,
+    "equipado2": {
+     "slot": 0,
+     "type": "hand"
+    },
+    "carregado": true,
+    "peso": 1,
+    "espacos": 1,
+    "qtd": 1,
+    "preco": 9000,
+    "pv": {
+     "value": 5,
+     "max": 5
+    },
+    "rd": 5,
+    "ativacao": {
+     "execucao": "action",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": 0,
+     "mpMultiplier": false
+    },
+    "duracao": {
+     "units": "inst",
+     "value": 0,
+     "special": ""
+    },
+    "range": {
+     "units": "",
+     "value": 0
+    },
+    "alcance": "short",
+    "alvo": "1 criatura",
+    "area": "",
+    "resistencia": {
+     "pericia": "refl",
+     "atributo": "car",
+     "bonus": 0,
+     "txt": "Reflexos reduz à metade"
+    },
+    "upgrades": {
+     "melhoria1": "",
+     "melhoria2": "",
+     "melhoria3": "",
+     "melhoria4": "",
+     "material": "",
+     "encanto1": "",
+     "encanto2": "",
+     "encanto3": ""
+    },
+    "enableAutoUpgrades": true,
+    "rolls": [
+     {
+      "name": "Raio Arcano",
+      "key": "dano0",
+      "type": "dano",
+      "parts": [
+       [
+        "(max(1, @circulo))d8",
+        "essencia",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "armadura": {
+     "maxAtr": 0,
+     "penalidade": 0,
+     "value": 0
+    },
+    "tipo": "acessorio",
+    "origin": "",
+    "tags": [
+     "Duelo de Dragões",
+     "Acessório Menor"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "pNdallCJ81xfNi3h",
+   "name": "Naidora",
+   "type": "race",
+   "img": "modules/classes-extras-t20/icons/naidora.webp",
+   "effects": [],
+   "folder": "vcJLlm1VtUc5QoWI",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Descendentes de Hydora, Dragão-Rei dos Ventos, e da exploradora elfa Hana, os <strong>naidora</strong> (<em>nailanandora</em> ou elfos-do-céu) são elfos alados de pele azulada extremamente raros, com grandes asas plumadas.</p>\n<ul>\n<li><strong>Atributos:</strong> Destreza +2, Carisma +1, Constituição –1.</li>\n<li><strong>Alma das Nuvens:</strong> resistência a encantamento +2.</li>\n<li><strong>Asas Emplumadas:</strong> 1 PM por rodada para voar 12m, recebendo +2 na Defesa e em Reflexos enquanto voa dessa forma.</li>\n<li><strong>Sentidos Élficos:</strong> visão na penumbra e +2 em Misticismo e Percepção.</li>\n<li><strong>Longevidade:</strong> ×5.</li>\n<li><strong>Devotos:</strong> Hyninn, Kallyadranoch, Nimb.</li>\n</ul>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 15-16",
+    "origin": "",
+    "tags": [
+     "Naidora",
+     "Duelo de Dragões"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatFlavor": "",
+    "chatGif": "",
+    "atributos": {
+     "for": 0,
+     "des": 2,
+     "con": -1,
+     "int": 0,
+     "sab": 0,
+     "car": 1
+    },
+    "atributosDinamicos": {
+     "value": [],
+     "description": ""
+    },
+    "grants": [
+     {
+      "title": "Habilidades de Raça — Naidora",
+      "desc": "",
+      "type": "multi",
+      "choices": [
+       {
+        "uuid": "Compendium.classes-extras-t20.itens.Item.vRbFWoG4GNkjYsMh"
+       },
+       {
+        "uuid": "Compendium.classes-extras-t20.itens.Item.HLwGberJQ0bfW598"
+       },
+       {
+        "uuid": "Compendium.classes-extras-t20.itens.Item.5tl8CC9UcJ1rbhX7"
+       }
+      ]
+     }
+    ],
+    "skills": []
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "vRbFWoG4GNkjYsMh",
+   "name": "Alma das Nuvens",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/naidora.webp",
+   "effects": [
+    {
+     "_id": "vu3Lcycllt67iqKJ",
+     "name": "Alma das Nuvens (+2 em resistências contra encantamento)",
+     "img": "modules/classes-extras-t20/icons/naidora.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.vRbFWoG4GNkjYsMh",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": true,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Fortitude; Reflexos; Vontade",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "roll",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "vcJLlm1VtUc5QoWI",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você recebe resistência a encantamento +2.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 15-16",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Naidora",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Naidora"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "HLwGberJQ0bfW598",
+   "name": "Asas Emplumadas",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/naidora.webp",
+   "effects": [
+    {
+     "_id": "psQzF5wnUj6BxVVl",
+     "name": "Asas Emplumadas (Voo 12m, +2 Defesa, +2 Reflexos)",
+     "img": "modules/classes-extras-t20/icons/naidora.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.HLwGberJQ0bfW598",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": 1,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.movement.fly",
+       "mode": 4,
+       "value": "12",
+       "priority": null
+      },
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.refl.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "vcJLlm1VtUc5QoWI",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você pode gastar 1 PM por rodada para voar com deslocamento 12m. Enquanto está voando dessa forma, você recebe +2 na Defesa e em Reflexos.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 15-16",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 1,
+     "units": "round",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Naidora",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Naidora"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "5tl8CC9UcJ1rbhX7",
+   "name": "Sentidos Élficos (Naidora)",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/naidora.webp",
+   "effects": [
+    {
+     "_id": "ctT5IOq1OK0XfLyW",
+     "name": "Sentidos Élficos (Visão na Penumbra, +2 Misticismo e Percepção)",
+     "img": "modules/classes-extras-t20/icons/naidora.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.itens.Item.5tl8CC9UcJ1rbhX7",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.attributes.sentidos.value",
+       "mode": 2,
+       "value": "penumbra",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.mist.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.perc.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "vcJLlm1VtUc5QoWI",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Você recebe visão na penumbra e +2 em Misticismo e Percepção.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 15-16",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "raca",
+    "subtipo": "Naidora",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Naidora"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795742000000,
+    "modifiedTime": 1795742000000,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
