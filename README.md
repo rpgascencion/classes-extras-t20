@@ -137,3 +137,13 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
   - **Qareen Ubaneri** (raça variante) + as 6 **Linhagens Kipane** automatizadas.
 - Compatível com **Foundry v13 (T20 1.5)** e **Foundry v14 (T20 1.6)** via `compat-v14.mjs`.
 
+## v0.14.1: Cavaleiro Cerúleo (Revista Tormenta20 #6 — Duelo de Dragões)
+- Adicionada a distinção **Cavaleiro Cerúleo** (Revista Tormenta20 #6, p. 16–17) no compêndio **Classes Extras – Distinções** com `rolltags` (`@CavaleiroCeruleo` e `@CavaleiroCeruleo2`) e ícone próprio (`icons/cavaleiro-ceruleo.webp`):
+  - **Voar é Viver (Marca)**: Admissão + Marca da Distinção com efeitos de cena para asas mágicas (Voo 12m ou +6m se a montaria já voa).
+  - **Investida Cerúlea**: efeitos de uso (`1 PM`) para `+1d8` / `+1d10` / `+1d12` de dano conforme a quantidade de poderes da distinção.
+  - **Acrobacia Aérea**: efeitos para ignorar penalidade de armadura em Acrobacia (`system.pericias.acro.pda = false`) e bônus escalável na Defesa de armadura pesada (`+@CavaleiroCeruleo`).
+  - **Criar o Firmamento**: efeitos de uso `+2` em Acrobacia (montaria voadora) e `+2` ataque (conta como investida).
+  - **Nuvem de Aço**: reação (`2 PM`), rolagem pronta de Acrobacia (`1d20 + @pericias.acro.value`) com efeito acumulável `–5` por uso repetido na rodada.
+  - **Proteger Sempre**: efeito aplicável em aliados adjacentes (`+2` Defesa e Reflexos) + efeito de reação ao trocar de lugar com RD (`5 + 5 × @CavaleiroCeruleo2`) e resistências (`+2 + @CavaleiroCeruleo2`).
+
+
