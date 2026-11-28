@@ -65,6 +65,28 @@
     "exportSource": null,
     "compendiumSource": null
    }
+  },
+  {
+   "_id": "4FS4yFZnBA6DaXbF",
+   "name": "Cavaleiro Cerúleo",
+   "type": "Item",
+   "folder": null,
+   "sorting": "a",
+   "sort": 400000,
+   "color": null,
+   "flags": {},
+   "description": "",
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
   }
  ],
  "items": [
@@ -4121,6 +4143,1249 @@
     "coreVersion": "13.344",
     "createdTime": 1795735000000,
     "modifiedTime": 1795735000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "C3zIELpqI6doAjeA",
+   "name": "Voar é Viver (Marca)",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+   "effects": [
+    {
+     "_id": "o3IwH67xnZ9fieKo",
+     "name": "Voar é Viver — Asas Mágicas (Voo 12m, cena)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.C3zIELpqI6doAjeA",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.movement.fly",
+       "mode": 4,
+       "value": "12",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "wMFmkMiBLwaEgKlB",
+     "name": "Voar é Viver — Montaria já voadora (+6m Voo, cena)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.C3zIELpqI6doAjeA",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": true,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.movement.fly",
+       "mode": 2,
+       "value": "6",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "4FS4yFZnBA6DaXbF",
+   "sort": 100,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p><strong>Marca da Distinção — Cavaleiro Cerúleo.</strong> A liberdade dos cavaleiros cerúleos dá asas às suas montarias. Se estiver montado, você pode gastar 1 PM para que sua montaria ganhe asas mágicas até o fim da cena. Uma montaria com essas asas fornece deslocamento de voo 12m (além de seus demais benefícios). Caso ela já forneça esse tipo de deslocamento, em vez disso seu deslocamento de voo aumenta em +6m. Além disso, se já não seguia o Código de Honra (<em>Tormenta20</em>, p. 53), passa a segui-lo.</p>\n<hr>\n<p><strong>Admissão:</strong> o candidato deve ser aceito no Castelo Monteclaro (por fama heroica ou recomendação de outro cavaleiro cerúleo), passar pela observação de Sir Aegoron e cavaleiros experientes — incluindo pelo menos uma missão pela Ordem para demonstrar honra e um “coração livre” — e concluir o <em>Teste das Duas Asas</em> (encontrar sua montaria no centro do labirinto de Monteclaro e saltar junto dela pelo abismo, confiando na salvação dos demais cavaleiros).</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 16-17",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "scene",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Cavaleiro Cerúleo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Cavaleiro Cerúleo"
+    ],
+    "rolltags": [],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "t8khyArDBEcJ2rcu",
+   "name": "Investida Cerúlea",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+   "effects": [
+    {
+     "_id": "P2C774eyVF1TjDul",
+     "name": "Investida Cerúlea — 1–2 poderes (1 PM: +1d8 dano)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.t8khyArDBEcJ2rcu",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d8",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "NYOxt8PmYdcxnqb3",
+     "name": "Investida Cerúlea — 3–4 poderes (1 PM: +1d10 dano)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.t8khyArDBEcJ2rcu",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d10",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "amV5CY5cWFKjCXnB",
+     "name": "Investida Cerúlea — 5 poderes (1 PM: +1d12 dano)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.t8khyArDBEcJ2rcu",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": "1"
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "dano",
+       "mode": 2,
+       "value": "1d12",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 20,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "4FS4yFZnBA6DaXbF",
+   "sort": 200,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>A primeira técnica de um cavaleiro cerúleo. Um oponente no chão é uma presa fácil para um ginete em plena velocidade.</p>\n<p>Quando faz uma investida montada usando uma montaria voadora, você pode gastar 1 PM. Caso faça isso, seu movimento de subida não custa o dobro, você não precisa se mover em linha reta e não sofre a penalidade na Defesa pela investida. Além disso, recebe +1d8 na rolagem de dano com seu primeiro ataque nessa ação. Para cada dois outros poderes de cavaleiro cerúleo que você possuir, esse dado adicional de dano aumenta em um passo (1d8 com 1–2 poderes, 1d10 com 3–4 poderes, 1d12 com 5 poderes).</p>\n<p><em>Pré-requisitos:</em> Carga de Cavalaria, um parceiro montaria.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 16-17",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 1,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Cavaleiro Cerúleo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Cavaleiro Cerúleo"
+    ],
+    "rolltags": [
+     "CavaleiroCeruleo"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "z0dARKJhURQKNYPC",
+   "name": "Acrobacia Aérea",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+   "effects": [
+    {
+     "_id": "748MaIq7A2FBe37P",
+     "name": "Acrobacia Aérea — Ignorar penalidade de armadura em Acrobacia",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.z0dARKJhURQKNYPC",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.pericias.acro.pda",
+       "mode": 5,
+       "value": "false",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "Ibuh5KVRK8ys0F9p",
+     "name": "Acrobacia Aérea — Armadura Pesada (+Defesa por poder da distinção)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.z0dARKJhURQKNYPC",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "1 * @CavaleiroCeruleo",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "4FS4yFZnBA6DaXbF",
+   "sort": 300,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Manobras impossíveis podem ser feitas quando guiadas pelas asas de um coração puro.</p>\n<p>Enquanto estiver em uma montaria voadora, você ignora a penalidade de armadura em Acrobacia e, se estiver de armadura pesada, recebe +1 na Defesa. Para cada outro poder de cavaleiro cerúleo que possuir, este bônus aumenta em +1 (total igual à sua quantidade de poderes da distinção). Você não pode usar esse poder se estiver sob efeito de uma condição de movimento.</p>\n<p><em>Pré-requisitos:</em> treinado em Acrobacia, Investida Cerúlea.</p>\n<p><em>Automação: ative os efeitos na aba Efeitos enquanto estiver em uma montaria voadora (e o segundo efeito se estiver de armadura pesada).</em></p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 16-17",
+    "ativacao": {
+     "execucao": "passive",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Cavaleiro Cerúleo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Cavaleiro Cerúleo"
+    ],
+    "rolltags": [
+     "CavaleiroCeruleo"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "WBdaAftxP0QY3zgR",
+   "name": "Criar o Firmamento",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+   "effects": [
+    {
+     "_id": "d13hffB3E9DLPrwL",
+     "name": "Criar o Firmamento (+2 Acrobacia em montaria voadora)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.WBdaAftxP0QY3zgR",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": true,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "Acrobacia",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "roll",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "gHPwgMUc8JvafzUX",
+     "name": "Criar o Firmamento (conta como Investida: +2 ataque)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.WBdaAftxP0QY3zgR",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": false,
+       "attack": true,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "ataque",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "4FS4yFZnBA6DaXbF",
+   "sort": 400,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Para um cavaleiro cerúleo, o céu é tudo acima do chão.</p>\n<p>Quando faz um ataque corpo a corpo, você pode fazer um teste de Acrobacia (CD igual à Defesa do alvo, +5 para cada outra vez que tiver usado este poder neste turno); você recebe +2 neste teste se estiver em uma montaria voadora. Se passar, seu ataque conta como uma investida para todos os efeitos (mas você não precisa percorrer uma distância mínima). Se falhar, você perde 1 PM devido ao esforço.</p>\n<p><em>Pré-requisito:</em> Acrobacia Aérea.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 16-17",
+    "ativacao": {
+     "execucao": "free",
+     "custo": 0,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Cavaleiro Cerúleo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Cavaleiro Cerúleo"
+    ],
+    "rolltags": [
+     "CavaleiroCeruleo"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "cFrg4supGAmotDIk",
+   "name": "Nuvem de Aço",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+   "effects": [
+    {
+     "_id": "g04dicci3n05DmpU",
+     "name": "Nuvem de Aço — Uso repetido na rodada (–5 por uso anterior)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.cFrg4supGAmotDIk",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": true,
+       "durationScene": false,
+       "self": true,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": true,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": null,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "roll",
+       "mode": 2,
+       "value": "-5",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "4FS4yFZnBA6DaXbF",
+   "sort": 500,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Um cavaleiro cerúleo é tão resistente quanto ágil. Seu golpe é rápido como um raio e seus passos são tão densos como as nuvens que se movem no céu à espera de uma tempestade.</p>\n<p>Enquanto estiver sobre uma montaria voadora, sempre que sofrer dano, você pode gastar 2 PM para fazer uma pirueta defensiva. Você faz um teste de Acrobacia, com uma penalidade –5 para cada outra vez que tiver usado este poder nesta rodada, e reduz o dano sofrido em um valor igual ao resultado deste teste. Além disso, se a regra de parceiros vulneráveis se aplicar à sua montaria (<em>Tormenta20</em>, p. 262), o dado rolado para determinar se ela é ferida ou morta aumenta em um passo.</p>\n<p><em>Pré-requisito:</em> Investida Cerúlea.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 16-17",
+    "ativacao": {
+     "execucao": "reaction",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 0,
+     "units": "",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [
+     {
+      "name": "Pirueta Defensiva (Acrobacia — reduz dano)",
+      "key": "formula0",
+      "type": "formula",
+      "parts": [
+       [
+        "1d20 + @pericias.acro.value",
+        "",
+        ""
+       ]
+      ],
+      "adaptavel": "",
+      "versatil": ""
+     }
+    ],
+    "tipo": "distincao",
+    "subtipo": "Cavaleiro Cerúleo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Cavaleiro Cerúleo"
+    ],
+    "rolltags": [
+     "CavaleiroCeruleo"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
+    "lastModifiedBy": "t20builder000000",
+    "duplicateSource": null,
+    "exportSource": null,
+    "compendiumSource": null
+   }
+  },
+  {
+   "_id": "QVcWBBroC1mX7qiJ",
+   "name": "Proteger Sempre",
+   "type": "poder",
+   "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+   "effects": [
+    {
+     "_id": "P6pCqXXJlyYFK8eb",
+     "name": "Proteger Sempre — Aliado Adjacente (+2 Defesa e Reflexos)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.QVcWBBroC1mX7qiJ",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": 1,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": false,
+     "changes": [
+      {
+       "key": "system.attributes.defesa.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.refl.bonus",
+       "mode": 2,
+       "value": "2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": false,
+     "statuses": [],
+     "sort": 0,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    },
+    {
+     "_id": "a2R9kdYNS23H7WoC",
+     "name": "Proteger Sempre — Trocar de Lugar (RD e Resistências)",
+     "img": "modules/classes-extras-t20/icons/cavaleiro-ceruleo.webp",
+     "type": "base",
+     "system": {},
+     "origin": "Compendium.classes-extras-t20.distincoes.Item.QVcWBBroC1mX7qiJ",
+     "tint": "#ffffff",
+     "flags": {
+      "tormenta20": {
+       "onuse": false,
+       "durationScene": false,
+       "self": false,
+       "attack": false,
+       "skill": false,
+       "ability": false,
+       "power": false,
+       "equipment": false,
+       "spell": false,
+       "consumable": false,
+       "items": "",
+       "aumenta": false,
+       "custo": ""
+      }
+     },
+     "duration": {
+      "startTime": null,
+      "combat": null,
+      "seconds": null,
+      "rounds": 1,
+      "turns": null,
+      "startRound": null,
+      "startTurn": null
+     },
+     "disabled": true,
+     "changes": [
+      {
+       "key": "system.tracos.resistencias.dano.bonus",
+       "mode": 2,
+       "value": "5 + 5 * @CavaleiroCeruleo2",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.fort.bonus",
+       "mode": 2,
+       "value": "2 + 1 * @CavaleiroCeruleo2",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.refl.bonus",
+       "mode": 2,
+       "value": "2 + 1 * @CavaleiroCeruleo2",
+       "priority": null
+      },
+      {
+       "key": "system.pericias.vont.bonus",
+       "mode": 2,
+       "value": "2 + 1 * @CavaleiroCeruleo2",
+       "priority": null
+      }
+     ],
+     "description": "",
+     "transfer": true,
+     "statuses": [],
+     "sort": 10,
+     "_stats": {
+      "coreVersion": "13.344",
+      "systemId": null,
+      "systemVersion": null,
+      "createdTime": null,
+      "modifiedTime": null,
+      "lastModifiedBy": null,
+      "compendiumSource": null,
+      "duplicateSource": null,
+      "exportSource": null
+     }
+    }
+   ],
+   "folder": "4FS4yFZnBA6DaXbF",
+   "sort": 600,
+   "flags": {},
+   "ownership": {
+    "default": 0
+   },
+   "system": {
+    "description": {
+     "value": "<p>Sua presença impede os vis de alcançar os mais indefesos.</p>\n<p>Quando você encerra seu turno adjacente a um ou mais aliados, esses aliados recebem +2 na Defesa e em Reflexos. Se um desses aliados for alvo de um efeito, você pode gastar 2 PM para trocar de lugar com ele e se tornar o alvo. Se fizer isso, você recebe RD 5 e +2 nos testes de resistência contra o efeito. A RD aumenta em +5 e o bônus em resistência aumenta em +1 para cada dois outros poderes de cavaleiro cerúleo que você possuir (RD 5/+2 com 1–2 poderes, RD 10/+3 com 3–4 poderes, RD 15/+4 com 5 poderes). Você não pode usar esse poder se estiver sob efeito de uma condição de movimento.</p>\n<p><em>Pré-requisitos:</em> treinado em Reflexos, Investida Cerúlea.</p>",
+     "unidentified": ""
+    },
+    "source": "Revista Tormenta20 #6 (Duelo de Dragões), p. 16-17",
+    "ativacao": {
+     "execucao": "reaction",
+     "custo": 2,
+     "qtd": "",
+     "condicao": "",
+     "special": ""
+    },
+    "duracao": {
+     "value": 1,
+     "units": "round",
+     "special": ""
+    },
+    "target": {
+     "value": null,
+     "width": null,
+     "units": "",
+     "type": ""
+    },
+    "range": {
+     "value": null,
+     "units": ""
+    },
+    "consume": {
+     "type": "",
+     "target": "",
+     "amount": null,
+     "mpMultiplier": false
+    },
+    "efeito": "",
+    "alcance": "none",
+    "alvo": "",
+    "area": "",
+    "resistencia": {
+     "pericia": "",
+     "atributo": "",
+     "bonus": 0,
+     "txt": ""
+    },
+    "rolls": [],
+    "tipo": "distincao",
+    "subtipo": "Cavaleiro Cerúleo",
+    "chatFlavor": "",
+    "origin": "",
+    "tags": [
+     "Cavaleiro Cerúleo"
+    ],
+    "rolltags": [
+     "CavaleiroCeruleo"
+    ],
+    "automationtags": [],
+    "chatGif": ""
+   },
+   "_stats": {
+    "systemId": "tormenta20",
+    "systemVersion": "1.5.015",
+    "coreVersion": "13.344",
+    "createdTime": 1795740000000,
+    "modifiedTime": 1795740000000,
     "lastModifiedBy": "t20builder000000",
     "duplicateSource": null,
     "exportSource": null,
