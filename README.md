@@ -146,4 +146,11 @@ Conferi os textos da wiki (encantos de armas, armaduras e escudos, esotéricos, 
   - **Nuvem de Aço**: reação (`2 PM`), rolagem pronta de Acrobacia (`1d20 + @pericias.acro.value`) com efeito acumulável `–5` por uso repetido na rodada.
   - **Proteger Sempre**: efeito aplicável em aliados adjacentes (`+2` Defesa e Reflexos) + efeito de reação ao trocar de lugar com RD (`5 + 5 × @CavaleiroCeruleo2`) e resistências (`+2 + @CavaleiroCeruleo2`).
 
+## v0.14.2: Naidora, Espada Enigma e Cetro do Poder Usurpado (Revista Tormenta20 #6)
+- Adicionados ao compêndio **Classes Extras – Itens e Magias** (`packs/itens`), com ícones próprios:
+  - **Naidora** (raça `type: "race"` completa, p. 15–16): aplica automaticamente Des +2, Car +1, Con –1 e concede as 3 habilidades raciais automatizadas: *Alma das Nuvens* (+2 resistências contra encantamento), *Asas Emplumadas* (1 PM/rodada → Voo 12m, +2 Defesa, +2 Reflexos) e *Sentidos Élficos* (Visão na Penumbra, +2 Misticismo e Percepção).
+  - **Espada Enigma** (arma exótica híbrida de uma mão, T$ 750, 1d6 corte, 19/x2, p. 23): propriedades ágil/alongada/híbrida/desbalanceada + efeitos para **Forma Escudo** (+1 Defesa), **Forma Lua** (arremesso/Pontaria alcance curto) e **Forma Pilar** (adaptável 1d8 perfuração).
+  - **Cetro do Poder Usurpado** (acessório menor, T$ 9.000, p. 24): rolagem de **Raio Arcano** embutida (`max(1, @circulo)d8` essência, Ref CD Car/atributo-chave) + efeitos selecionáveis para quem já possui *Raio Arcano* (+1 passo), *Kallyanach* (+1 passo), *Feiticeiro Dracônico* (+2 CD) e *Devoto de Kallyadranoch* (*Raio Elemental* ácido/eletricidade/fogo/frio ou –1 PM).
+
+
 

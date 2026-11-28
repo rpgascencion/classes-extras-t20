@@ -1,8 +1,8 @@
 {
   "id": "classes-extras-t20",
   "title": "Classes e Extras (T20)",
-  "description": "Classes, distinções, armas, magias e conteúdo extra para o Tormenta20, com os poderes automatizados sempre que o sistema permite. Classes: Sentinela, Comandante (DB #222), Cruzado, Capanga (DB #223), Miragem (DB #211) e Místico (DB #233). Inclui as distinções da DB #233 (Gêmeo do Trovão, Retalhador Panzajiri, Senhor das Chamas) e da Revista Tormenta20 #6 (Cavaleiro Cerúleo), arma Zipana, magia Controlar Ar e raça variante Qareen Ubaneri, condições automáticas + 28 condições extras (DB) e melhorias/encantos/maldições de itens superiores.",
-  "version": "0.14.1",
+  "description": "Classes, distinções, armas, itens mágicos, raças, magias e conteúdo extra para o Tormenta20, com os poderes automatizados sempre que o sistema permite. Classes: Sentinela, Comandante (DB #222), Cruzado, Capanga (DB #223), Miragem (DB #211) e Místico (DB #233). Inclui as distinções da DB #233 (Gêmeo do Trovão, Retalhador Panzajiri, Senhor das Chamas) e da Revista Tormenta20 #6 (Cavaleiro Cerúleo), raças (Qareen Ubaneri, Naidora), armas/itens (Zipana, Espada Enigma, Cetro do Poder Usurpado), magia Controlar Ar, condições automáticas + 28 condições extras (DB) e melhorias/encantos/maldições de itens superiores.",
+  "version": "0.14.2",
   "authors": [
     {
       "name": "ASCUNCAO"
